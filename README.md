@@ -26,9 +26,10 @@ The repository is organized by difficulty levels (Easy, Medium, Hard) and number
 
 ## Let's Connect!
 
-- **LinkedIn:** [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/venkatesh-e-700a41204/))
-- **GitHub:** [Your GitHub Profile](https://github.com/venkatesh-jacke)
 
+- **LinkedIn:** [Venkatesh E](https://www.linkedin.com/in/venkatesh-e-700a41204/)
+- **GitHub:** [Venkatesh Jacke](https://github.com/venkatesh-jacke)
+- 
 Feel free to connect with me, and I'm open to collaboration and discussions about algorithms, data structures, and software development.
 
 Happy coding! 🚀
