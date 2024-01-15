@@ -2,6 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
+//1929 Concatenation of Array
 public class ConcatenationOfArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 1};
@@ -21,5 +22,5 @@ public class ConcatenationOfArray {
 
 }
 
-//Time complexity  O(n)  Traverse all elemnets in an array
+//Time complexity  O(n)  Traverse all elements in an array
 //Space complexity O(n)  2 * size of original array
