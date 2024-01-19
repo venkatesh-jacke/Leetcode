@@ -11,6 +11,9 @@ public class KidsWithCandies {
         System.out.println(kidsWithCandies(arr,candies));
 
     }
+
+    //Time Complexity O(n)
+    //Space Complexity O(n)
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> res= new ArrayList<>();
         int max=0;
