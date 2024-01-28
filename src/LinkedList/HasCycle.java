@@ -12,6 +12,9 @@ public class HasCycle {
         System.out.println(hasCycle(head));
     }
 
+
+    //Time Complexity is O(n)
+    //Space Complexity is O(1)
     static public boolean hasCycle(ListNode head) {
         ListNode slow=head;
         ListNode fast=head;
