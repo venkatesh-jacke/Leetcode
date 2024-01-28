@@ -39,6 +39,9 @@ public class IsPalindrome {
 
     }
 
+
+    //Time Complexity is O(N)
+    //Space Complexity is O(1) Extra space
     static public boolean isPalindrome2(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
