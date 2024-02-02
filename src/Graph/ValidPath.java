@@ -3,15 +3,33 @@ package Graph;
 import java.util.*;
 
 //1971. Find if Path Exists in Graph
+
+
 public class ValidPath {
     public static void main(String[] args) {
-        int n=3;
-        int[][] edges={{0,1},{1,2},{2,0}};
-        int source=0;
-        int destination=2;
-        System.out.println(validPath(n,edges,source,destination));
+        int n = 3;
+        int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
+        int source = 0;
+        int destination = 2;
+        System.out.println(validPath_Adjacency_List(n, edges, source, destination));
     }
-    static private boolean dfs(boolean[][] graph, int source, int destination, boolean[] visited, int n) {
+    //Adjacency Matrix
+    static public boolean validPath_Adjacency_Matrix(int n, int[][] edges, int source, int destination) {
+        boolean[][] graph = new boolean[n][n]; //by default its false
+        for (int[] edge : edges) { //mark the neighbors by its edges
+            int u = edge[0];
+            int v = edge[1];
+
+            //mark either side also since its a bidirectional graph
+            graph[u][v] = true;
+            graph[v][u] = true;
+        }
+        boolean[] visited = new boolean[n];  // visited array
+        return dfs_Adj_Matrix(graph, source, destination, visited, n);
+    }
+
+    //Adjacency Matrix DFS
+    static private boolean dfs_Adj_Matrix(boolean[][] graph, int source, int destination, boolean[] visited, int n) {
         if (source == destination)
             return true; //Mark current source node as visited
         visited[source] = true;  //before traversing mark the source as visited
@@ -22,7 +40,7 @@ public class ValidPath {
             //If there is a edge from current source to i and node i is not visited
             if (graph[source][i] == true && !visited[i]) {
                 //Recursively call node i as the source
-                if (dfs(graph, i, destination, visited, n))
+                if (dfs_Adj_Matrix(graph, i, destination, visited, n))
                     return true; //If a path is found from i to destination, return true
             }
         }
@@ -30,18 +48,58 @@ public class ValidPath {
         return false;
     }
 
-    static public boolean validPath(int n, int[][] edges, int source, int destination) {
-        boolean[][] graph = new boolean[n][n]; //by default its false
-        for (int[] edge : edges) { //mark the neighbors by its edges
-            int u = edge[0];
-            int v = edge[1];
 
-            //mark either side also since its a bidirectional graph
-            graph[u][v] = true;
-            graph[v][u] = true;
+    //Adjacency Matrix BFS
+    static private boolean bfs_Adj_Matrix(boolean[][] graph, int source, int destination, boolean[] visited, int n) {
+        Queue<Integer> q = new LinkedList<>();  //Create a queue
+        q.add(source); //First add the source in to queue
+        while (!q.isEmpty()) {
+            int current = q.remove(); //remove the front element
+            if (current == destination)  //if current front is the destination return true
+                return true;
+            //Iterate through all Node
+            for (int i = 0; i < n; i++) {
+                if (graph[current][i] == true && !visited[i]) {
+                    q.add(i);  //add the node i and mark it as visited
+                    visited[i] = true;
+
+                }
+            }
         }
-        boolean[] visited=new boolean[n];  // visited array
-        boolean ans=dfs(graph,source,destination,visited,n);  //dfs helper function
-        return ans;
+
+        return false;
     }
+
+
+
+//Adjacency List
+    static public boolean validPath_Adjacency_List(int n, int[][] edges, int source, int destination) {
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        for (int[] edge : edges) {
+            int u=edge[0];
+            int v=edge[1];
+            graph.computeIfAbsent(u,value->new ArrayList<>()).add(v);
+            graph.computeIfAbsent(v,value->new ArrayList<>()).add(u);
+        }
+        boolean[] visited=new boolean[n];
+        return dfs_Adj_LIST(graph,source,destination,visited,n);
+    }
+
+
+    //Adjacency lIST DFS
+    static private boolean dfs_Adj_LIST(Map<Integer, List<Integer>> graph, int source, int destination, boolean[] visited, int n) {
+        if (source == destination)
+            return true; //Mark current source node as visited
+        visited[source] = true;  //before traversing mark the source as visited
+
+        //check the source index node and traverse its neighbors find if destination its a neignor or not
+        for(int neighbor:graph.get(source)){
+            if(!visited[neighbor])
+                if(dfs_Adj_LIST(graph,neighbor,destination,visited,n))
+                    return  true;
+        }
+        // No path found from source to destination
+        return false;
+    }
+
 }
