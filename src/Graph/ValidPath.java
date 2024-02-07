@@ -13,7 +13,10 @@ public class ValidPath {
         int destination = 2;
         System.out.println(validPath_Adjacency_List(n, edges, source, destination));
     }
+
     //Adjacency Matrix
+    //Time Complexity is O(V^2)
+    //Space Complexity is O(V^2) O(V)
     static public boolean validPath_Adjacency_Matrix(int n, int[][] edges, int source, int destination) {
         boolean[][] graph = new boolean[n][n]; //by default its false
         for (int[] edge : edges) { //mark the neighbors by its edges
@@ -71,34 +74,55 @@ public class ValidPath {
     }
 
 
-
-//Adjacency List
+    //Adjacency List
+    //Time Complexity is O(V+2E)
+    //Space Complexity is O(V+2E) O(v) O(V)
     static public boolean validPath_Adjacency_List(int n, int[][] edges, int source, int destination) {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         for (int[] edge : edges) {
-            int u=edge[0];
-            int v=edge[1];
-            graph.computeIfAbsent(u,value->new ArrayList<>()).add(v);
-            graph.computeIfAbsent(v,value->new ArrayList<>()).add(u);
+            int u = edge[0];
+            int v = edge[1];
+            graph.computeIfAbsent(u, value -> new ArrayList<>()).add(v);
+            graph.computeIfAbsent(v, value -> new ArrayList<>()).add(u);
         }
-        boolean[] visited=new boolean[n];
-        return dfs_Adj_LIST(graph,source,destination,visited,n);
+        boolean[] visited = new boolean[n];
+        return bfs_Adj_List(graph, source, destination, visited, n);
     }
 
 
     //Adjacency lIST DFS
-    static private boolean dfs_Adj_LIST(Map<Integer, List<Integer>> graph, int source, int destination, boolean[] visited, int n) {
+    static private boolean dfs_Adj_List(Map<Integer, List<Integer>> graph, int source, int destination, boolean[] visited, int n) {
         if (source == destination)
             return true; //Mark current source node as visited
         visited[source] = true;  //before traversing mark the source as visited
 
-        //check the source index node and traverse its neighbors find if destination its a neignor or not
-        for(int neighbor:graph.get(source)){
-            if(!visited[neighbor])
-                if(dfs_Adj_LIST(graph,neighbor,destination,visited,n))
-                    return  true;
+        //check the source index node and traverse its neighbors find if destination its a neighbor or not
+        for (int neighbor : graph.get(source)) {
+            if (!visited[neighbor])
+                if (dfs_Adj_List(graph, neighbor, destination, visited, n))
+                    return true;
         }
         // No path found from source to destination
+        return false;
+    }
+
+
+    //Adjacency lIST BFS
+    static private boolean bfs_Adj_List(Map<Integer, List<Integer>> graph, int source, int destination, boolean[] visited, int n) {
+
+        Queue<Integer> q= new LinkedList<>();
+        q.add(source);
+        visited[source]=true;
+        while(!q.isEmpty()){
+            int current=q.remove();
+            if(current==destination) return true;
+            for(int neighbor:graph.get(current)){
+                if(!visited[neighbor]){
+                    q.add(neighbor);
+                    visited[neighbor]=true;
+                }
+            }
+        }
         return false;
     }
 
