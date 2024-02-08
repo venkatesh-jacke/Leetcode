@@ -3,7 +3,7 @@ import java.util.*;
 
 
 //1791. Find Center of Star Graph
-public class FndCenter {
+public class FindCenter {
     public static void main(String[] args) {
         int[][] edges = {
                 {10, 1}, {10, 2}, {3, 10}, {10, 4}, {5, 10},
