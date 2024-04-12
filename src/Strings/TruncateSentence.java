@@ -9,6 +9,9 @@ public class TruncateSentence {
         System.out.println(truncateSentence(s, k));
     }
 
+
+    //Tc O(n) Sc O(1)
+
     static public String truncateSentence(String s, int k) {
         int index = 0;
         int count = 0;

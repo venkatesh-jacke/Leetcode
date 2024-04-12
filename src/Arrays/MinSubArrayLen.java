@@ -49,3 +49,10 @@ public class MinSubArrayLen {
         return min_len != n + 1 ? min_len : 0;  //if no subArray len return 0;
     }
 }
+
+/*
+Note:-
+
+This will work only for all positive numbers because the cumulative sum graph will monotonically increase
+
+*/

@@ -4,9 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="name change">
-      <change afterPath="$PROJECT_DIR$/src/Graph/FindCircleNum.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1. Two Sum">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/DecompressRLElis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ShortestSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/TwoSum_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/IsValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/FourSum_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Foursum_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/IsoMorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/kSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/SwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CircularGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ArrayStringsAreEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/BalancedStringSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CountMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/DecodeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/GetSmallestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/GoalParserInterpret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RestoreString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/SingleRowKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/IsSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MinSubArrayLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/IsHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashSet/IsHappy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +68,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindCircleNum">
-    <configuration name="FindCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.FindCenter" />
+  <component name="RunManager" selected="Application.TruncateSentence">
+    <configuration name="RandomizedSet (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.RandomizedSet" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindCircleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.FindCircleNum" />
+    <configuration name="RandomizedSet (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.RandomizedSet" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumsSameConsecDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.NumsSameConsecDiff" />
+    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.RandomizedSet" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.PairSum" />
+    <configuration name="RestoreString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RestoreString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.ValidPath" />
+    <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.TruncateSentence" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindCircleNum" />
-        <item itemvalue="Application.FindCenter" />
-        <item itemvalue="Application.NumsSameConsecDiff" />
-        <item itemvalue="Application.ValidPath" />
-        <item itemvalue="Application.PairSum" />
+        <item itemvalue="Application.TruncateSentence" />
+        <item itemvalue="Application.RestoreString" />
+        <item itemvalue="Application.RandomizedSet" />
+        <item itemvalue="Application.RandomizedSet (2)" />
+        <item itemvalue="Application.RandomizedSet (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -121,69 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1929-Concatenation of Array">
-      <created>1705293880227</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705293880227</updated>
-    </task>
-    <task id="LOCAL-00002" summary=" 1920 Build Array from Permutation">
-      <created>1705294335492</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705294335492</updated>
-    </task>
-    <task id="LOCAL-00003" summary=" 1512. Number of Good Pairs">
-      <created>1705296294599</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1705296294599</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2011&#9;&#10;Final Value of Variable After Performing Operations">
-      <created>1705297322527</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705297322528</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1470 Shuffle the Array">
-      <created>1705316968364</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705316968364</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1637. Widest Vertical Area Between TwoPoints Containing No Points">
-      <created>1705487127944</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705487127944</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2942. Find Words Containing Character">
-      <created>1705488119766</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705488119766</updated>
-    </task>
-    <task id="LOCAL-00008" summary="1672. Richest Customer Wealth">
-      <created>1705498302389</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705498302389</updated>
-    </task>
-    <task id="LOCAL-00009" summary="1672. Richest Customer Wealth">
-      <created>1705498758248</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705498758248</updated>
     </task>
     <task id="LOCAL-00010" summary="1431. Kids With the Greatest Number of Candies">
       <created>1705677049260</created>
@@ -416,7 +388,119 @@
       <option name="project" value="LOCAL" />
       <updated>1707393280023</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="547. Number of Provinces">
+      <created>1707553560640</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707553560640</updated>
+    </task>
+    <task id="LOCAL-00044" summary="1021. Remove Outermost Parentheses">
+      <created>1709473261855</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1709473261855</updated>
+    </task>
+    <task id="LOCAL-00045" summary="1475. Final Prices With a Special Discount in a Shop">
+      <created>1709651322272</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1709651322272</updated>
+    </task>
+    <task id="LOCAL-00046" summary="682. Baseball Game">
+      <created>1709738275173</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1709738275173</updated>
+    </task>
+    <task id="LOCAL-00047" summary="1119.Remove Vowels from a String">
+      <created>1709799523492</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1709799523492</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1108. Defanging an IP Address">
+      <created>1709802445235</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802445235</updated>
+    </task>
+    <task id="LOCAL-00049" summary="771. Jewels and Stones">
+      <created>1709995505168</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1709995505168</updated>
+    </task>
+    <task id="LOCAL-00050" summary="2011. Final Value of Variable After Performing Operations">
+      <created>1709995561807</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1709995561808</updated>
+    </task>
+    <task id="LOCAL-00051" summary="2942. Find Words Containing Character">
+      <created>1709995808957</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1709995808957</updated>
+    </task>
+    <task id="LOCAL-00052" summary="1389. Create Target Array in the Given Order">
+      <created>1710169399720</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1710169399721</updated>
+    </task>
+    <task id="LOCAL-00053" summary="6. Zigzag Conversion">
+      <created>1710308199854</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710308199854</updated>
+    </task>
+    <task id="LOCAL-00054" summary="209. Minimum Size Subarray Sum">
+      <created>1710663296046</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663296046</updated>
+    </task>
+    <task id="LOCAL-00055" summary="209. Minimum Size Subarray Sum">
+      <created>1710663518219</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663518219</updated>
+    </task>
+    <task id="LOCAL-00056" summary="209. Minimum Size Subarray Sum">
+      <created>1710669090753</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1710669090753</updated>
+    </task>
+    <task id="LOCAL-00057" summary="202. Happy Number">
+      <created>1711181360798</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1711181360799</updated>
+    </task>
+    <task id="LOCAL-00058" summary="1. Two Sum">
+      <created>1711204401969</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1711204401971</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,20 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2824. Count Pairs Whose Sum is Less than Target" />
-    <MESSAGE value="1480. Running Sum of 1d Array" />
-    <MESSAGE value="2114. Maximum Number of Words Found in Sentences" />
-    <MESSAGE value="2859. Sum of Values at Indices With K Set Bits" />
-    <MESSAGE value="1720. Decode XORed Array" />
-    <MESSAGE value="2974. Minimum Number Game" />
-    <MESSAGE value="2574. Left and Right Sum Differences" />
-    <MESSAGE value="1290. Convert Binary Number in a Linked List to Integer" />
-    <MESSAGE value="ListNode kept in public to access all files with unique name" />
-    <MESSAGE value="876. Middle of the Linked List" />
-    <MESSAGE value="206. Reverse Linked List" />
-    <MESSAGE value="705. Design HashSet" />
-    <MESSAGE value="21. Merge Two Sorted Lists" />
-    <MESSAGE value="160. Intersection of Two Linked Lists" />
     <MESSAGE value="83. Remove Duplicates from Sorted List" />
     <MESSAGE value="234. Palindrome Linked List" />
     <MESSAGE value="141. Linked List Cycle" />
@@ -456,232 +526,544 @@
     <MESSAGE value="1791. Find Center of Star Graph" />
     <MESSAGE value="133. Clone Graph" />
     <MESSAGE value="name change" />
-    <option name="LAST_COMMIT_MESSAGE" value="name change" />
+    <MESSAGE value="547. Number of Provinces" />
+    <MESSAGE value="1021. Remove Outermost Parentheses" />
+    <MESSAGE value="1475. Final Prices With a Special Discount in a Shop" />
+    <MESSAGE value="682. Baseball Game" />
+    <MESSAGE value="1119.Remove Vowels from a String" />
+    <MESSAGE value="1108. Defanging an IP Address" />
+    <MESSAGE value="771. Jewels and Stones" />
+    <MESSAGE value="2011. Final Value of Variable After Performing Operations" />
+    <MESSAGE value="2942. Find Words Containing Character" />
+    <MESSAGE value="1389. Create Target Array in the Given Order" />
+    <MESSAGE value="6. Zigzag Conversion" />
+    <MESSAGE value="209. Minimum Size Subarray Sum" />
+    <MESSAGE value="202. Happy Number" />
+    <MESSAGE value="1. Two Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Two Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SmallerNumbersThanCurrent.java</url>
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SmallerNumbersThanCurrent.java</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SmallerNumbersThanCurrent.java</url>
           <line>24</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SmallerNumbersThanCurrent.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SumIndicesWithKSetBits.java</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SumIndicesWithKSetBits.java</url>
           <line>24</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/SumIndicesWithKSetBits.java</url>
           <line>36</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>20</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>23</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>26</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>29</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>31</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>34</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/LeftRightDifference.java</url>
           <line>18</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MiddleNode.java</url>
           <line>12</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MiddleNode.java</url>
           <line>46</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MiddleNode.java</url>
           <line>45</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/DesignHashSet.java</url>
           <line>13</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/DesignHashSet.java</url>
           <line>10</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeTwoLists.java</url>
           <line>24</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeTwoLists.java</url>
           <line>28</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeTwoLists.java</url>
           <line>31</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java</url>
           <line>32</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java</url>
           <line>37</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java</url>
           <line>35</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java</url>
           <line>59</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/IsPalindrome.java</url>
           <line>19</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
           <line>25</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
           <line>20</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
           <line>28</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
           <line>22</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>27</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>30</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>32</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>34</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>55</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>54</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>52</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/PairSum.java</url>
           <line>47</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Graph/NumsSameConsecDiff.java</url>
           <line>64</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Graph/FindCircleNum.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Graph/FindCircleNum.java</url>
-          <line>40</line>
+          <line>42</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graph/FindCircleNum.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Graph/FindCircleNum.java</url>
           <line>15</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/FindCircleNum.java</url>
+          <line>17</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/NumIslands.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RemoveOuterParentheses.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RemoveOuterParentheses.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/RemoveVowels.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/SingleRowKeyboard.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecompressRLElis.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ZigZag.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ZigZag.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ZigZag.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/BalancedStringSplit.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/BalancedStringSplit.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/BalancedStringSplit.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/BalancedStringSplit.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextSmallerElement.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/NextSmallerElement.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/CircularGame.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/CircularGame.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/CircularGame.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ShortestSubarray.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ShortestSubarray.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ThreeSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FourSum_II.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FourSum_II.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FourSum_II.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FourSum_II.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/TopKFrequent.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="333" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1711086817618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
