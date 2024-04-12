@@ -4,43 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1. Two Sum">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DecompressRLElis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/NextGreaterElement_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ShortestSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/TwoSum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/NumIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/IsValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/FourSum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Foursum_I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/IsoMorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/TopKFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/kSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/SwapPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CircularGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ArrayStringsAreEqual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/BalancedStringSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/CountMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/DecodeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/GetSmallestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/GoalParserInterpret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RestoreString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/SingleRowKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/TreeNode.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="12-04-24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MinSubArrayLen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/IsHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashSet/IsHappy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/GetDecimalValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +37,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TruncateSentence">
-    <configuration name="RandomizedSet (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.RandomizedSet" />
+  <component name="RunManager" selected="Application.DefangIPaddr">
+    <configuration name="DefangIPaddr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.DefangIPaddr" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefangIPaddr" />
         <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.RestoreString" />
         <item itemvalue="Application.RandomizedSet" />
         <item itemvalue="Application.RandomizedSet (2)" />
-        <item itemvalue="Application.RandomizedSet (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,20 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00010" summary="1431. Kids With the Greatest Number of Candies">
-      <created>1705677049260</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1705677049260</updated>
-    </task>
-    <task id="LOCAL-00011" summary="1431. Kids With the Greatest Number of Candies">
-      <created>1705677131920</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1705677131920</updated>
     </task>
     <task id="LOCAL-00012" summary="2824. Count Pairs Whose Sum is Less than Target">
       <created>1705763695097</created>
@@ -500,7 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711204401971</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="1816. Truncate Sentence">
+      <created>1712896194407</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1712896194407</updated>
+    </task>
+    <task id="LOCAL-00060" summary="12-04-24">
+      <created>1712896243324</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1712896243324</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,8 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="83. Remove Duplicates from Sorted List" />
-    <MESSAGE value="234. Palindrome Linked List" />
     <MESSAGE value="141. Linked List Cycle" />
     <MESSAGE value="203. Remove Linked List Elements" />
     <MESSAGE value="2807. Insert Greatest Common Divisors in Linked List" />
@@ -540,7 +503,9 @@
     <MESSAGE value="209. Minimum Size Subarray Sum" />
     <MESSAGE value="202. Happy Number" />
     <MESSAGE value="1. Two Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Two Sum" />
+    <MESSAGE value="1816. Truncate Sentence" />
+    <MESSAGE value="12-04-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-04-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
