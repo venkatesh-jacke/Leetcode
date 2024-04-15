@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1832. Check if the Sentence Is Pangram">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="top k frequent quick select algo">
       <change afterPath="$PROJECT_DIR$/src/HashTable/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/TopKFrequent_QuickSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -118,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00014" summary="1480. Running Sum of 1d Array">
-      <created>1705847353000</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1705847353000</updated>
     </task>
     <task id="LOCAL-00015" summary="2114. Maximum Number of Words Found in Sentences">
       <created>1705849618439</created>
@@ -462,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712900623802</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="top k frequent quick select algo">
+      <created>1713195409977</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1713195409978</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2807. Insert Greatest Common Divisors in Linked List" />
     <MESSAGE value="2181. Merge Nodes in Between Zeros" />
     <MESSAGE value="967. Numbers With Same Consecutive Differences" />
     <MESSAGE value="1971. Find if Path Exists in Graph" />
@@ -502,7 +500,8 @@
     <MESSAGE value="12-04-24" />
     <MESSAGE value="709. To Lower Case" />
     <MESSAGE value="1832. Check if the Sentence Is Pangram" />
-    <option name="LAST_COMMIT_MESSAGE" value="1832. Check if the Sentence Is Pangram" />
+    <MESSAGE value="top k frequent quick select algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="top k frequent quick select algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,21 +790,6 @@
           <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
           <line>46</line>
           <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/NextGreaterElement.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Strings/RemoveVowels.java</url>
