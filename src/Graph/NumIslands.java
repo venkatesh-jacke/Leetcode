@@ -6,7 +6,18 @@ import javafx.util.Pair;
 import java.util.LinkedList;
 import java.util.Queue;
 
+
+//200. Number of Islands
 public class NumIslands {
+    static class MyPair {
+        int first;
+        int second;
+
+        MyPair(int first, int second) {
+            this.first = first;
+            this.second = second;
+        }
+    }
     public static void main(String[] args) {
         char[][] grid = {
                 {'1', '1', '1', '1', '0'},
@@ -22,75 +33,53 @@ public class NumIslands {
         };
         System.out.println(numIslands(grid2));
     }
-
-    static class Pair {
-        int first;
-        int second;
-
-        Pair(int first, int second) {
-            this.first = first;
-            this.second = second;
+   static public int numIslands(char[][] grid) {
+        int row = grid.length;
+        int col = grid[0].length;
+        boolean[][] visited = new boolean[row][col];
+        int count = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (grid[i][j] == '1' && !visited[i][j]) {
+                    count++;
+                    bfs(grid, visited, i, j, row, col);
+                }
+            }
         }
+        return count;
+    }
+   static public boolean isSafe(int i, int j, int row, int col) {
+        return i >= 0 && i < row && j >= 0 && j < col;
     }
 
-
-    //Time Complexity is O(m*n)
-    //Space Complexity is O(m*n)
-    private static void dfs(char[][] grid, int i, int j, boolean[][] vis, int m, int n) {
-
+    static public void dfs(char[][] grid, boolean[][] vis, int i, int j, int row, int col) {
         vis[i][j] = true;
-        int[][] dirs = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
-        for (int k = 0; k < dirs.length; k++) {
-            int newi = i + dirs[k][0];
-            int newj = j + dirs[k][1];
-
-            if (isBound(newi, newj, m, n) && grid[newi][newj] == '1' && !vis[newi][newj]) {
+        int[][] dir = { { -1, 0 }, { 0, -1 }, { 0, 1 }, { 1, 0 } };
+        for (int k = 0; k < dir.length; k++) {
+            int newi = i + dir[k][0];
+            int newj = j + dir[k][1];
+            if (isSafe(newi, newj, row, col) && grid[newi][newj] == '1' && !vis[newi][newj]) {
                 vis[newi][newj] = true;
-                dfs(grid, newi, newj, vis, m, n);
+                dfs(grid, vis, newi, newj, row, col);
             }
-
         }
     }
-
-    private static void bfs(char[][] grid, int i, int j, boolean[][] vis, int m, int n) {
-        Queue<Pair> q= new LinkedList<>();
-        q.add(new Pair(i,j));
-        while(!q.isEmpty()){
-           Pair curr=q.remove();
-            int[][] dirs = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};  //Traverse 4 all direction
-            for (int k = 0; k < dirs.length; k++) {
-                int newi = curr.first + dirs[k][0]; //next neighbor i index
-                int newj = curr.second + dirs[k][1];//next neighbor j index
-                if (isBound(newi, newj, m, n) && grid[newi][newj] == '1' && !vis[newi][newj]) {
+   static public void bfs(char[][] grid, boolean[][] vis, int i, int j, int row, int col) {
+        Queue<MyPair> q = new LinkedList<>();
+        q.add(new MyPair(i, j));
+        while (!q.isEmpty()) {
+            MyPair cur = q.remove();
+            int curi = cur.first;
+            int curj = cur.second;
+            int[][] dir = { { -1, 0 }, { 0, -1 }, { 0, 1 }, { 1, 0 } };
+            for (int k = 0; k < dir.length; k++) {
+                int newi = curi + dir[k][0];
+                int newj = curj + dir[k][1];
+                if (isSafe(newi, newj, row, col) && grid[newi][newj] == '1' && !vis[newi][newj]) {
                     vis[newi][newj] = true;
-                    dfs(grid, newi, newj, vis, m, n);  //call with next neighbor;s index
-                }
-
-            }
-        }
-
-    }
-
-    static private boolean isBound(int newi, int newj, int m, int n) {
-        return newi >= 0 && newi < m && newj >= 0 && newj < n;
-    }
-
-    static public int numIslands(char[][] grid) {
-
-        int m = grid.length;
-        int n = grid[0].length;
-
-        boolean[][] vis = new boolean[m][n];
-        int c = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == '1' && !vis[i][j]) {
-                    c++;
-                    bfs(grid, i, j, vis, m, n);
+                    q.add(new MyPair(newi,newj));
                 }
             }
         }
-        return c;
-
     }
 }
