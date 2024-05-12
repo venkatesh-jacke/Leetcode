@@ -32,3 +32,28 @@ public class KthSmallestPrimeFraction {
         return maxHeap.peek();
     }
 }
+
+/*
+Added 1/2 - 0.5
+Added 1/3 - 0.3
+Added 1/5 - 0.2
+Added 2/3 - 1.6
+
+head is 2/3 - 1.6
+Removed 2/3 - 0.6
+
+Added 2/5 - 0.4
+
+head is 1/2 - 0.5
+Removed 1/2 - 0.2
+
+Added 3/5 - 0.6
+
+head is 3/5 - 0.6
+Removed 3/5 - 0.6
+
+
+head is 2/5 - 0.4
+
+Return ans is [2, 5]
+*/
