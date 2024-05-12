@@ -1,62 +1,46 @@
-import com.sun.glass.ui.Size;
-import javafx.util.Pair;
 
-import java.sql.SQLOutput;
+
+//931. Minimum Falling Path Sum
+
+import java.io.*;
 import java.util.*;
-
 public class Main {
 
-    public static void main(String[] args) {
-        int nums[] = {1, 1, 1, 2, 2, 3};
-        int k = 2;
-        System.out.println(Arrays.toString(topKFrequent(nums, k)));
-
+    public static void main(String[] args) throws IOException {
+        List<Integer> ranked= new ArrayList<>(Arrays.asList(100,100,50,40,40,20,10));
+        List<Integer> player= new ArrayList<>(Arrays.asList(5,25,50,105));
+        System.out.println(climbingLeaderboard(ranked,player));
     }
 
-    static HashMap<Integer, Integer> map;
-    static int[] arr;
+    public static List<Integer> climbingLeaderboard(List<Integer> ranked, List<Integer> player) {
+        List<Integer> res = new ArrayList<>();
 
-    static public int[] topKFrequent(int[] nums, int k) {
-        map = new HashMap<>();
-        for (int i : nums) map.put(i, map.getOrDefault(i, 0) + 1);
-        int n = map.size();
-        arr = new int[n];
-        int j = 0;
-        for (int i : map.keySet()) arr[j++] = i;
-        quickSelect(0, n - 1, n - k);
+        int rank[] = new int[201];
 
+        int ranking = 1;
 
-        return Arrays.copyOfRange(arr, n - k, n);
-
-    }
-
-    public static void quickSelect(int left, int right, int k) {
-        if (left < right) {
-            int pi = partition(left, right, right);
-            if (pi == k) return;
-            if (pi > k) quickSelect(left, pi - 1, k);
-            else quickSelect(pi + 1, right, k);
-        }
-    }
-
-    public static int partition(int low, int high, int piIndex) {
-        int pivotFreq = map.get(arr[piIndex]);
-        int i = low - 1;
-        for (int j = low; j <= high; j++) {
-            if (map.get(arr[j]) < pivotFreq) {
-                i++;
-                swap(arr, i, j);
+        for (int i = 1; i < ranked.size() ; i++) {
+            if (ranked.get(i-1) != ranked.get(i )) {
+                rank[ranked.get(i-1)] = ranking++;
             }
         }
-        swap(arr, i + 1, piIndex);
-        return i + 1;
-    }
+        rank[ranked.get(ranked.size()-1)] = ranking++;
+        int newRank=1;
+        for(int i=200;i>=0;i--){
+            while(i>=0 && rank[i]==0){
+                rank[i]=newRank;
+                i--;
+            }
+            if(newRank==2){
+                System.out.println("rank2");
+            }
+            newRank++;
 
-    public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        }
+        for(int i:player){
+            res.add(rank[i]);
+        }
+        return res;
     }
-
 
 }

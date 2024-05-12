@@ -8,25 +8,25 @@ public class RemoveElements {
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(3);
-        ListNode.printList(removeElements2(head, 3));
+        ListNode.printList(removeElements3(head, 3));
     }
 
 
     //Time Complexity is O(n)
     //Space Complexity is O(n)
-    static public ListNode removeElements1(ListNode head, int val) {
-        ListNode dummy = new ListNode(Integer.MIN_VALUE);
-        ListNode ptr=dummy;
-       while(head!=null){
-           if(head.val!=val){
-               dummy.next=new ListNode(head.val);
-               dummy=dummy.next;
-           }
-
-           head=head.next;
-
-       }
-       return ptr.next;
+    static     public ListNode removeElements3(ListNode head, int val){
+        ListNode dummy= new ListNode(-1);
+        dummy.next=head;
+        ListNode cur=dummy.next;
+        while(cur!=null){
+            if(cur.val!=val){
+                cur=cur.next;
+            }
+            else{
+                cur=cur.next.next;
+            }
+        }
+        return dummy.next;
     }
 
 

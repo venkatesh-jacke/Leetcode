@@ -1,8 +1,12 @@
 package LinkedList;
 
+import java.util.List;
+
 public class ListNode {
     int val;
     ListNode next;
+    ListNode prev;
+    ListNode child;
 
     ListNode() {
     }
@@ -16,11 +20,24 @@ public class ListNode {
         this.next = next;
     }
 
+    ListNode(int val, ListNode next, ListNode prev) {
+        this.val = val;
+        this.next = next;
+        this.prev = prev;
+    }
 
-  public static void printList(ListNode head) {
-        while(head!=null){
-            System.out.print(head.val+"->");
-            head=head.next;
+    ListNode(int val, ListNode next, ListNode prev, ListNode child) {
+        this.val = val;
+        this.next = next;
+        this.prev = prev;
+        this.child = child;
+    }
+
+
+    public static void printList(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val + "->");
+            head = head.next;
         }
         System.out.print("Null");
     }

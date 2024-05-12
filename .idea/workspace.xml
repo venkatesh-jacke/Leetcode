@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="496. Next Greater Element I">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="430. Flatten a Multilevel Doubly Linked List">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/TimeRequiredToBuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/FreedomTrial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/MinFallingPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/MinimumFallingPathSum_I.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/HashTable/Intersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/KthSmallestPrimeFraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/SmallestFromLeaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/RemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/RemoveElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LongestIdealSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynmaicProgramming/LongestIdealSubString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CheckIfPangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfPangram" />
+  <component name="RunManager" selected="Application.KthSmallestPrimeFraction">
+    <configuration name="Flatten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Flatten" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefangIPaddr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.DefangIPaddr" />
+    <configuration name="FreedomTrial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynmaicProgramming.FreedomTrial" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="DynmaicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.Intersection" />
+    <configuration name="KthSmallestPrimeFraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.KthSmallestPrimeFraction" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.TruncateSentence" />
+    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynmaicProgramming.MinFallingPathSum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="DynmaicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallestPrimeFraction" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Intersection" />
-        <item itemvalue="Application.CheckIfPangram" />
-        <item itemvalue="Application.DefangIPaddr" />
-        <item itemvalue="Application.TruncateSentence" />
+        <item itemvalue="Application.Flatten" />
+        <item itemvalue="Application.FreedomTrial" />
+        <item itemvalue="Application.MinFallingPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -117,83 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00016" summary="2859. Sum of Values at Indices With K Set Bits">
-      <created>1705981316137</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1705981316138</updated>
-    </task>
-    <task id="LOCAL-00017" summary="1720. Decode XORed Array">
-      <created>1706070524492</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1706070524492</updated>
-    </task>
-    <task id="LOCAL-00018" summary="2974. Minimum Number Game">
-      <created>1706174987325</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1706174987325</updated>
-    </task>
-    <task id="LOCAL-00019" summary="2574. Left and Right Sum Differences">
-      <created>1706176668741</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1706176668741</updated>
-    </task>
-    <task id="LOCAL-00020" summary="1290. Convert Binary Number in a Linked List to Integer">
-      <created>1706280711725</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1706280711725</updated>
-    </task>
-    <task id="LOCAL-00021" summary="1290. Convert Binary Number in a Linked List to Integer">
-      <created>1706282796002</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1706282796002</updated>
-    </task>
-    <task id="LOCAL-00022" summary="ListNode kept in public to access all files with unique name">
-      <created>1706282835871</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1706282835871</updated>
-    </task>
-    <task id="LOCAL-00023" summary="876. Middle of the Linked List">
-      <created>1706282847803</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1706282847803</updated>
-    </task>
-    <task id="LOCAL-00024" summary="206. Reverse Linked List">
-      <created>1706285131577</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1706285131578</updated>
-    </task>
-    <task id="LOCAL-00025" summary="705. Design HashSet">
-      <created>1706363803857</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1706363803857</updated>
-    </task>
-    <task id="LOCAL-00026" summary="21. Merge Two Sorted Lists">
-      <created>1706368305623</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1706368305623</updated>
     </task>
     <task id="LOCAL-00027" summary="160. Intersection of Two Linked Lists">
       <created>1706426192071</created>
@@ -461,7 +394,84 @@
       <option name="project" value="LOCAL" />
       <updated>1713197594077</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="1700. Number of Students Unable to Eat Lunch">
+      <created>1713284542513</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284542514</updated>
+    </task>
+    <task id="LOCAL-00066" summary="https://leetcode.com/problems/design-linked-list/">
+      <created>1713334956949</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1713334956949</updated>
+    </task>
+    <task id="LOCAL-00067" summary="1656. Design an Ordered Stream">
+      <created>1713444953215</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1713444953216</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2105. Watering Plants II">
+      <created>1713518306257</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1713518306258</updated>
+    </task>
+    <task id="LOCAL-00069" summary="200. Number of Islands">
+      <created>1713519748555</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1713519748555</updated>
+    </task>
+    <task id="LOCAL-00070" summary="142. Linked List Cycle II">
+      <created>1713538812981</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538812982</updated>
+    </task>
+    <task id="LOCAL-00071" summary="328. Odd Even Linked List">
+      <created>1713686167600</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1713686167600</updated>
+    </task>
+    <task id="LOCAL-00072" summary="19. Remove Nth Node From End of List">
+      <created>1713686301625</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1713686301625</updated>
+    </task>
+    <task id="LOCAL-00073" summary="//2. Add Two Numbers">
+      <created>1713799994659</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1713799994660</updated>
+    </task>
+    <task id="LOCAL-00074" summary="2370. Longest Ideal Subsequence">
+      <created>1714057976055</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1714057976056</updated>
+    </task>
+    <task id="LOCAL-00075" summary="430. Flatten a Multilevel Doubly Linked List">
+      <created>1714750645329</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1714750645330</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,17 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="967. Numbers With Same Consecutive Differences" />
-    <MESSAGE value="1971. Find if Path Exists in Graph" />
-    <MESSAGE value="1791. Find Center of Star Graph" />
-    <MESSAGE value="133. Clone Graph" />
-    <MESSAGE value="name change" />
-    <MESSAGE value="547. Number of Provinces" />
-    <MESSAGE value="1021. Remove Outermost Parentheses" />
-    <MESSAGE value="1475. Final Prices With a Special Discount in a Shop" />
-    <MESSAGE value="682. Baseball Game" />
-    <MESSAGE value="1119.Remove Vowels from a String" />
-    <MESSAGE value="1108. Defanging an IP Address" />
     <MESSAGE value="771. Jewels and Stones" />
     <MESSAGE value="2011. Final Value of Variable After Performing Operations" />
     <MESSAGE value="2942. Find Words Containing Character" />
@@ -501,7 +500,18 @@
     <MESSAGE value="1832. Check if the Sentence Is Pangram" />
     <MESSAGE value="top k frequent quick select algo" />
     <MESSAGE value="496. Next Greater Element I" />
-    <option name="LAST_COMMIT_MESSAGE" value="496. Next Greater Element I" />
+    <MESSAGE value="1700. Number of Students Unable to Eat Lunch" />
+    <MESSAGE value="https://leetcode.com/problems/design-linked-list/" />
+    <MESSAGE value="1656. Design an Ordered Stream" />
+    <MESSAGE value="2105. Watering Plants II" />
+    <MESSAGE value="200. Number of Islands" />
+    <MESSAGE value="142. Linked List Cycle II" />
+    <MESSAGE value="328. Odd Even Linked List" />
+    <MESSAGE value="19. Remove Nth Node From End of List" />
+    <MESSAGE value="//2. Add Two Numbers" />
+    <MESSAGE value="2370. Longest Ideal Subsequence" />
+    <MESSAGE value="430. Flatten a Multilevel Doubly Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="430. Flatten a Multilevel Doubly Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,31 +647,6 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/IsPalindrome.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MergeNodes.java</url>
           <line>27</line>
           <option name="timeStamp" value="65" />
@@ -728,7 +713,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Graph/NumIslands.java</url>
-          <line>88</line>
+          <line>84</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -912,11 +897,6 @@
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="256" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
           <line>24</line>
           <option name="timeStamp" value="271" />
@@ -983,16 +963,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="331" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="332" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HashTable/RandomizedSet.java</url>
           <line>40</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
@@ -1002,14 +972,82 @@
           <option name="timeStamp" value="336" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/TimeRequiredToBuy.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/NumIslands.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveNthFromEnd.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveElements.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynmaicProgramming/FreedomTrial.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynmaicProgramming/FreedomTrial.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynmaicProgramming/FreedomTrial.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="337" />
+          <line>40</line>
+          <option name="timeStamp" value="463" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1711086817618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LeetCode$RemoveNthFromEnd.ic" NAME="RemoveNthFromEnd Coverage Results" MODIFIED="1713621997918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LinkedList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1715234718030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
