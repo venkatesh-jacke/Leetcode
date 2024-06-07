@@ -31,12 +31,20 @@ public class SingleNumber_III {
 /*
 xy = 3^5 = 6  (0110)
 3 - 0011
+(^)
 5 - 0101
+---------
 6 - 0110
 
 rightMostSetBit - 0010
 
 totalXor = 6
+
+1 - 0001
+2 - 0010
+3 - 0011
+3 - 0101
+
 Group 1 (0010):- {2,2,3}  2 will get cancel 3 remains
 Group 2 (0000):- {1,1,5}  1 will get cancel 5 remains
 */
