@@ -5,22 +5,26 @@ package Leetcode_75;
 public class ProductExceptSelf {
 
     public static void main(String[] args) {
-
+        int[] arr = {23, 2, 4, 6, 6};
+        System.out.println(subArray(arr, 7));
     }
 
-    static public int[] productExceptSelf(int[] nums) {
-        int N = nums.length;
-        int[] res = new int[N];
+    static boolean subArray(int[] arr, int x) {
+        int n = arr.length;
+        // Pick starting point
+        for (int i = 0; i < n; i++) {
+            // Pick ending point
+            for (int j = i; j < n; j++) {
+                // Print subarray between current starting
+                // and ending points
+                int sum = 0;
+                for (int k = i; k <= j; k++)
+                    System.out.print(arr[k]+" ");
+                System.out.println();
 
-        int prefix = 1, suffix = 1;
-        for (int i = 0; i < N; i++) {
-            res[i] = prefix;
-            prefix *= nums[i];
+            }
         }
-        for (int i = N - 1; i >= 0; i--) {
-            res[i] *= suffix;
-            suffix *= nums[i];
-        }
-        return res;
+        return false;
+
     }
 }
