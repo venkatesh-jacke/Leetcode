@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1275. Find Winner on a Tic Tac Toe Game">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/GcdOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/KidsWithCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/MergeAlternately.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/ProductExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RemoveLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Search2DMatrix.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="238. Product of Array Except Self">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitManipulation/SingleNumber_III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumber_III.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TicTacToe">
+  <component name="RunManager" selected="Application.MoveZeroes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -59,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PalindromeLinkedList" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.MoveZeroes" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Leetcode_75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.ReverseLinkedList" />
+    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.ProductExceptSelf" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Leetcode_75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProductExceptSelf" />
+        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.StudentRecord_II" />
-        <item itemvalue="Application.PalindromeLinkedList" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -123,34 +111,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00037" summary="1971. Find if Path Exists in Graph">
-      <created>1706886479198</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1706886479198</updated>
-    </task>
-    <task id="LOCAL-00038" summary="967. Numbers With Same Consecutive Differences">
-      <created>1707305296191</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1707305296191</updated>
-    </task>
-    <task id="LOCAL-00039" summary="1971. Find if Path Exists in Graph">
-      <created>1707305326076</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1707305326076</updated>
-    </task>
-    <task id="LOCAL-00040" summary="1791. Find Center of Star Graph">
-      <created>1707393180132</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1707393180132</updated>
     </task>
     <task id="LOCAL-00041" summary="133. Clone Graph">
       <created>1707393208592</created>
@@ -467,7 +427,35 @@
       <option name="project" value="LOCAL" />
       <updated>1717132227910</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="commit">
+      <created>1717765219862</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1717765219863</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Leetcode 75 7-problems commit">
+      <created>1717765255847</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1717765255847</updated>
+    </task>
+    <task id="LOCAL-00088" summary="443. String Compression">
+      <created>1718033995907</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1718033995907</updated>
+    </task>
+    <task id="LOCAL-00089" summary="238. Product of Array Except Self">
+      <created>1718034027697</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1718034027697</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,10 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12-04-24" />
-    <MESSAGE value="709. To Lower Case" />
-    <MESSAGE value="1832. Check if the Sentence Is Pangram" />
-    <MESSAGE value="top k frequent quick select algo" />
     <MESSAGE value="496. Next Greater Element I" />
     <MESSAGE value="1700. Number of Students Unable to Eat Lunch" />
     <MESSAGE value="https://leetcode.com/problems/design-linked-list/" />
@@ -507,7 +491,11 @@
     <MESSAGE value="subset and subsets-2" />
     <MESSAGE value="260. Single Number III" />
     <MESSAGE value="1275. Find Winner on a Tic Tac Toe Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="1275. Find Winner on a Tic Tac Toe Game" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="Leetcode 75 7-problems commit" />
+    <MESSAGE value="443. String Compression" />
+    <MESSAGE value="238. Product of Array Except Self" />
+    <option name="LAST_COMMIT_MESSAGE" value="238. Product of Array Except Self" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1033,11 +1021,6 @@
           <option name="timeStamp" value="408" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="463" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Trees/RemoveLeafNodes.java</url>
           <line>22</line>
           <option name="timeStamp" value="464" />
@@ -1148,11 +1131,6 @@
           <option name="timeStamp" value="496" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="521" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
           <line>21</line>
           <option name="timeStamp" value="522" />
@@ -1161,6 +1139,36 @@
           <url>file://$PROJECT_DIR$/src/TicTacToe.java</url>
           <line>24</line>
           <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="533" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
