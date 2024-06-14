@@ -5,7 +5,7 @@ package Contests.Weekly392;
 public class LongestMonotonicSubarray {
     public static void main(String[] args) {
         int[] arr = {1, 4, 3, 3, 2};
-        System.out.println();
+        System.out.println(longestMonotonicSubarray(arr));
     }
 
     static public int longestMonotonicSubarray(int[] nums) {
