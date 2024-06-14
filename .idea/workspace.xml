@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="283. Move Zeroes">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="392. Is Subsequence">
+      <change afterPath="$PROJECT_DIR$/src/Contests/Weekly392/LongestMonotonicSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MoveZeroes">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -71,19 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentRecord_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.StudentRecord_II" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTacToe" />
       <module name="LeetCode" />
@@ -93,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.ProductExceptSelf" />
         <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.StudentRecord_II" />
       </list>
     </recent_temporary>
   </component>
@@ -109,13 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00042" summary="name change">
-      <created>1707393280023</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1707393280023</updated>
     </task>
     <task id="LOCAL-00043" summary="547. Number of Provinces">
       <created>1707553560640</created>
@@ -453,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718289339955</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="392. Is Subsequence">
+      <created>1718290563885</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1718290563885</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1700. Number of Students Unable to Eat Lunch" />
     <MESSAGE value="https://leetcode.com/problems/design-linked-list/" />
     <MESSAGE value="1656. Design an Ordered Stream" />
     <MESSAGE value="2105. Watering Plants II" />
@@ -493,7 +487,8 @@
     <MESSAGE value="443. String Compression" />
     <MESSAGE value="238. Product of Array Except Self" />
     <MESSAGE value="283. Move Zeroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="283. Move Zeroes" />
+    <MESSAGE value="392. Is Subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="392. Is Subsequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,6 +1162,11 @@
           <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
           <line>14</line>
           <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="547" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
