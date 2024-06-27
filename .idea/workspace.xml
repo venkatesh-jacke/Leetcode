@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
-      <change afterPath="$PROJECT_DIR$/src/Contests/Weekly390/MaximumLengthSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contests/Weekly392/GetSmallestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contests/Weekly392/MinOperationToMakeMedianK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/FindMaxAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/MaxVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/NumberOfNiceSubarrays.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
+      <change afterPath="$PROJECT_DIR$/src/CodeChef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/LongestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LongestOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LongestSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -45,16 +43,35 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="CodeChef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeChef" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.LongestOnes" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode_75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.LongestSubArray" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode_75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,26 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinOperationToMakeMedianK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contests.Weekly392.MinOperationToMakeMedianK" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contests.Weekly392.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CodeChef" />
+        <item itemvalue="Application.LongestSubArray" />
+        <item itemvalue="Application.LongestOnes" />
         <item itemvalue="Application.MaxVowels" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.MinOperationToMakeMedianK" />
       </list>
     </recent_temporary>
   </component>
@@ -110,13 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00045" summary="1475. Final Prices With a Special Discount in a Shop">
-      <created>1709651322272</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1709651322272</updated>
     </task>
     <task id="LOCAL-00046" summary="682. Baseball Game">
       <created>1709738275173</created>
@@ -454,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718379233658</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
+      <created>1719072921812</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1719072921812</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1656. Design an Ordered Stream" />
     <MESSAGE value="2105. Watering Plants II" />
     <MESSAGE value="200. Number of Islands" />
     <MESSAGE value="142. Linked List Cycle II" />
@@ -494,7 +497,8 @@
     <MESSAGE value="283. Move Zeroes" />
     <MESSAGE value="392. Is Subsequence" />
     <MESSAGE value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
-    <option name="LAST_COMMIT_MESSAGE" value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
+    <MESSAGE value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
+    <option name="LAST_COMMIT_MESSAGE" value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1141,7 +1145,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>31</line>
+          <line>22</line>
           <option name="timeStamp" value="527" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1190,14 +1194,34 @@
           <option name="timeStamp" value="551" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="558" />
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/LongestSubArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="560" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/LongestSubArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/LongestSubArray.java</url>
           <line>18</line>
-          <option name="timeStamp" value="559" />
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeChef.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeChef.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeChef.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="567" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1206,6 +1230,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$RemoveNthFromEnd.ic" NAME="RemoveNthFromEnd Coverage Results" MODIFIED="1713621997918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LinkedList.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$CodeChef.ic" NAME="CodeChef Coverage Results" MODIFIED="1719414159186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1715234718030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
