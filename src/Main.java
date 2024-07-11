@@ -1,24 +1,24 @@
-import javafx.util.Pair;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
-import java.util.*;
+class Solution {
 
-public class Main {
     public static void main(String[] args) {
-
-        int[] arr = {10,1,2,4,7,2};
-
-        List<Pair<Integer,Integer>> list= new ArrayList<>();
-        List<Integer> l= Arrays.asList(1,2,3,4,5);
-        System.out.println(l);
-        Map<Integer,Integer>map= new HashMap<>();
-        for(Map.Entry<Integer,Integer> e:map.entrySet()){
-
-        }
-
-
+        System.out.println(numWaterBottles(15,4));
 
     }
 
 
+    static public int numWaterBottles(int numBottles, int numExchange) {
+        int ans = numBottles;
+        while (numBottles / numExchange != 0) {
+            ans += numBottles / numExchange;
+            numBottles = numBottles % numExchange + numBottles / numExchange;
+
+        }
+        return ans;
+    }
 
 }

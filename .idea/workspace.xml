@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
-      <change afterPath="$PROJECT_DIR$/src/CodeChef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/LongestSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LongestOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LongestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/NodesBetweenCriticalPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -42,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CodeChef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeChef" />
       <module name="LeetCode" />
@@ -83,26 +80,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_75.MaxVowels" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode_75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CodeChef" />
         <item itemvalue="Application.LongestSubArray" />
         <item itemvalue="Application.LongestOnes" />
-        <item itemvalue="Application.MaxVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -114,13 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00046" summary="682. Baseball Game">
-      <created>1709738275173</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1709738275173</updated>
     </task>
     <task id="LOCAL-00047" summary="1119.Remove Vowels from a String">
       <created>1709799523492</created>
@@ -458,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719072921812</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
+      <created>1719463322095</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1719463322095</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1144,11 +1135,6 @@
           <option name="timeStamp" value="523" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="527" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Leetcode_75/MoveZeroes.java</url>
           <line>18</line>
           <option name="timeStamp" value="528" />
@@ -1222,6 +1208,11 @@
           <url>file://$PROJECT_DIR$/src/CodeChef.java</url>
           <line>51</line>
           <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="571" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
