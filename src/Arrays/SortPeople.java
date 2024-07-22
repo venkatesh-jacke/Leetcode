@@ -1,28 +1,17 @@
-import java.util.*;
+package Arrays;
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
-class Solution {
+import java.util.Arrays;
+
+
+//2418. Sort the People
+public class SortPeople {
     public static void main(String[] args) {
         String names[] = {"Mary", "John", "Emma"};
         int[] heights = {180, 165, 170};
         System.out.println(Arrays.toString(sortPeople(names, heights)));
     }
 
-    static public String[] sortPeople(String[] names, int[] heights) {
+    static  public String[] sortPeople(String[] names, int[] heights){
         int n = names.length;
         Integer[] indices = new Integer[n];
         String[] ans = new String[n];

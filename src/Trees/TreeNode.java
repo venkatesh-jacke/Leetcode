@@ -20,6 +20,11 @@ public class TreeNode {
         this.right = right;
     }
 
+    @Override
+    public String toString() {
+        return (this.val) + "";
+    }
+
     public static List<Integer> printTree(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if (root == null) {
@@ -47,5 +52,29 @@ public class TreeNode {
         }
 
         return list;
+    }
+
+    public static TreeNode buildTree(Integer[] arr) {
+        if (arr.length == 0 || arr[0] == null) return null;
+        TreeNode root = new TreeNode(arr[0]);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int i = 1;
+        while (!queue.isEmpty() && i < arr.length) {
+            TreeNode cur = queue.poll();
+            if (i<arr.length && arr[i] != null) {
+                cur.left = new TreeNode(arr[i]);
+                queue.add(cur.left);
+            }
+            i++;
+            if (i < arr.length && arr[i] != null) {
+                cur.right = new TreeNode(arr[i]);
+                queue.add(cur.right);
+            }
+            i++;
+
+        }
+        return root;
+
     }
 }
