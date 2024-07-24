@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2196. Create Binary Tree From Descriptions">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LuckyNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortPeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/BuildMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ModifiedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/CountOfAtoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MaximumGain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/SurvivedRobotsHealths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/CountPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/CreateBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/CreateDirections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/DelNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/InorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/PostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/PreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Solution.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="22-07-24">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00048" summary="1108. Defanging an IP Address">
-      <created>1709802445235</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1709802445235</updated>
     </task>
     <task id="LOCAL-00049" summary="771. Jewels and Stones">
       <created>1709995505168</created>
@@ -476,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720680691606</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="22-07-24">
+      <created>1721620357072</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1721620357072</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="142. Linked List Cycle II" />
     <MESSAGE value="328. Odd Even Linked List" />
     <MESSAGE value="19. Remove Nth Node From End of List" />
     <MESSAGE value="//2. Add Two Numbers" />
@@ -516,7 +500,8 @@
     <MESSAGE value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
     <MESSAGE value="1190. Reverse Substrings Between Each Pair of Parentheses" />
     <MESSAGE value="2196. Create Binary Tree From Descriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="2196. Create Binary Tree From Descriptions" />
+    <MESSAGE value="22-07-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="22-07-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,16 +1263,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>29</line>
+          <line>31</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="595" />
+          <option name="timeStamp" value="597" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="596" />
+          <line>35</line>
+          <option name="timeStamp" value="598" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
