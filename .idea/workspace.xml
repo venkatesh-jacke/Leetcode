@@ -4,9 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="22-07-24">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchRange.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="24-07-24">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ChalkReplacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Construct2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindClosestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/KthDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MinSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MissingRolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NumTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RangeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SmallestDistancePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SpiralMatrixIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/XorQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/CountConsistentStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/FindComplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinBitFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XorQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/FindTheCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/MinimumCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/UncommonFromSentences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/PivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Base7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memoization/DiffWaysToCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/DiffWaysToCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/MinHeightShelves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/StrangePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CountConsistentStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CountSeniors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/FindMinDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/FractionAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/MinimumPushes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/NumberToWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeSet/NthUglyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +78,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="BuildMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.BuildMatrix" />
+  <component name="RunManager" selected="Application.Memoization.DiffWaysToCompute">
+    <configuration name="DiffWaysToCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.DiffWaysToCompute" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.CountPairs" />
+    <configuration name="FindMinDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FindMinDifference" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateDirections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.CreateDirections" />
+    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LargestNumber" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderTraversal" />
+    <configuration name="Memoization.DiffWaysToCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memoization.DiffWaysToCompute" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Memoization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Memoization.DiffWaysToCompute" />
+        <item itemvalue="Application.DiffWaysToCompute" />
+        <item itemvalue="Application.LargestNumber" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.BuildMatrix" />
-        <item itemvalue="Application.InorderTraversal" />
-        <item itemvalue="Application.CountPairs" />
-        <item itemvalue="Application.CreateDirections" />
+        <item itemvalue="Application.FindMinDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -117,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00049" summary="771. Jewels and Stones">
-      <created>1709995505168</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1709995505168</updated>
     </task>
     <task id="LOCAL-00050" summary="2011. Final Value of Variable After Performing Operations">
       <created>1709995561807</created>
@@ -461,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721620357072</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="24-07-24">
+      <created>1721799788000</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1721799788001</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="328. Odd Even Linked List" />
     <MESSAGE value="19. Remove Nth Node From End of List" />
     <MESSAGE value="//2. Add Two Numbers" />
     <MESSAGE value="2370. Longest Ideal Subsequence" />
@@ -501,7 +539,8 @@
     <MESSAGE value="1190. Reverse Substrings Between Each Pair of Parentheses" />
     <MESSAGE value="2196. Create Binary Tree From Descriptions" />
     <MESSAGE value="22-07-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="22-07-24" />
+    <MESSAGE value="24-07-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-07-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,17 +1301,134 @@
           <option name="timeStamp" value="594" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>31</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="597" />
+          <url>file://$PROJECT_DIR$/src/Strings/CountSeniors.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/CountSeniors.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindClosestNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindClosestNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/KthDistinct.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/KthDistinct.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/KthDistinct.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/KthDistinct.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MinimumPushes.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MinimumPushes.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MinimumPushes.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ChalkReplacer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ChalkReplacer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ChalkReplacer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="624" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/MissingRolls.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/CountConsistentStrings.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BitManipulation/XorQueries.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/LongestSubArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="630" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="598" />
+          <line>53</line>
+          <option name="timeStamp" value="632" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
