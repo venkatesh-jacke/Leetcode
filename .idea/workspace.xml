@@ -4,48 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="24-07-24">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ChalkReplacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Construct2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindClosestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/KthDistinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MinSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MissingRolls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/NumMagicSquaresInside.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/NumTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SmallestDistancePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SpiralMatrixIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/XorQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/CountConsistentStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/FindComplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinBitFlips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XorQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/FindTheCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/MinimumCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/UncommonFromSentences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/PivotIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/Base7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memoization/DiffWaysToCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/DiffWaysToCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/MinHeightShelves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/StrangePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/CountConsistentStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/CountSeniors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/FindMinDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/FractionAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/LargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/MinimumPushes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/NumberToWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeSet/NthUglyNumber.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="20-09-24">
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ShortestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,39 +40,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Memoization.DiffWaysToCompute">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="DiffWaysToCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.DiffWaysToCompute" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMinDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.FindMinDifference" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LargestNumber" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +67,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.ReverseBits" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ShortestPalindrome" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="LeetCode" />
@@ -140,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ReverseBits" />
+        <item itemvalue="Application.ShortestPalindrome" />
         <item itemvalue="Application.Memoization.DiffWaysToCompute" />
         <item itemvalue="Application.DiffWaysToCompute" />
-        <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.FindMinDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00050" summary="2011. Final Value of Variable After Performing Operations">
-      <created>1709995561807</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1709995561808</updated>
     </task>
     <task id="LOCAL-00051" summary="2942. Find Words Containing Character">
       <created>1709995808957</created>
@@ -500,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721799788001</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="20-09-24">
+      <created>1726812755220</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1726812755220</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19. Remove Nth Node From End of List" />
     <MESSAGE value="//2. Add Two Numbers" />
     <MESSAGE value="2370. Longest Ideal Subsequence" />
     <MESSAGE value="430. Flatten a Multilevel Doubly Linked List" />
@@ -540,7 +501,8 @@
     <MESSAGE value="2196. Create Binary Tree From Descriptions" />
     <MESSAGE value="22-07-24" />
     <MESSAGE value="24-07-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="24-07-24" />
+    <MESSAGE value="20-09-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="20-09-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1424,11 +1386,6 @@
           <url>file://$PROJECT_DIR$/src/Arrays/LongestSubArray.java</url>
           <line>19</line>
           <option name="timeStamp" value="630" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="632" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
