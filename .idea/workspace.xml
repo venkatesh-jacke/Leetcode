@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="567. Permutation in String">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/FindAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/FindDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/FindAnagrams.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="leetcode 75">
+      <change afterPath="$PROJECT_DIR$/src/Dequeue/AreSentencesSimilar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +40,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UniqueOccurrences">
-    <configuration name="CheckInclusion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.CheckInclusion" />
+  <component name="RunManager" selected="Application.AreSentencesSimilar">
+    <configuration name="AreSentencesSimilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.AreSentencesSimilar" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AreSentencesSimilar" />
         <item itemvalue="Application.UniqueOccurrences" />
         <item itemvalue="Application.FindDifference" />
         <item itemvalue="Application.FindAnagrams" />
         <item itemvalue="Application.PermutationOfString" />
-        <item itemvalue="Application.CheckInclusion" />
       </list>
     </recent_temporary>
   </component>
@@ -125,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00055" summary="209. Minimum Size Subarray Sum">
-      <created>1710663518219</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1710663518219</updated>
     </task>
     <task id="LOCAL-00056" summary="209. Minimum Size Subarray Sum">
       <created>1710669090753</created>
@@ -469,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728107028649</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="leetcode 75">
+      <created>1728139740319</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1728139740319</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="https://leetcode.com/problems/k-th-smallest-prime-fraction" />
     <MESSAGE value="979. Distribute Coins in Binary Tree" />
     <MESSAGE value="1046. Last Stone Weight" />
     <MESSAGE value="2974. Minimum Number Game" />
@@ -509,7 +507,8 @@
     <MESSAGE value="02-10-24" />
     <MESSAGE value="04-10-24" />
     <MESSAGE value="567. Permutation in String" />
-    <option name="LAST_COMMIT_MESSAGE" value="567. Permutation in String" />
+    <MESSAGE value="leetcode 75" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 75" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,6 +1452,21 @@
           <url>file://$PROJECT_DIR$/src/HashTable/FindAnagrams.java</url>
           <line>25</line>
           <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="649" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="651" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
