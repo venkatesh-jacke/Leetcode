@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="leetcode 75">
-      <change afterPath="$PROJECT_DIR$/src/Dequeue/AreSentencesSimilar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1813. Sentence Similarity III">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/EqualPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/EqualPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/CoseStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MinLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MinSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/RemoveStars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/MinAddToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/MinLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RemoveStars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AreSentencesSimilar">
+  <component name="RunManager" selected="Application.MinAddToMakeValid">
     <configuration name="AreSentencesSimilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPointer.AreSentencesSimilar" />
       <module name="LeetCode" />
@@ -54,21 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.FindAnagrams" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_75.FindDifference" />
+    <configuration name="CoseStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.CoseStrings" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.PermutationOfString" />
+    <configuration name="EqualPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.EqualPairs" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
+          <option name="PATTERN" value="HashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinAddToMakeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.MinAddToMakeValid" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinAddToMakeValid" />
+        <item itemvalue="Application.EqualPairs" />
+        <item itemvalue="Application.CoseStrings" />
         <item itemvalue="Application.AreSentencesSimilar" />
         <item itemvalue="Application.UniqueOccurrences" />
-        <item itemvalue="Application.FindDifference" />
-        <item itemvalue="Application.FindAnagrams" />
-        <item itemvalue="Application.PermutationOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00056" summary="209. Minimum Size Subarray Sum">
-      <created>1710669090753</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669090753</updated>
     </task>
     <task id="LOCAL-00057" summary="202. Happy Number">
       <created>1711181360798</created>
@@ -468,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728139740319</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="1813. Sentence Similarity III">
+      <created>1728195564829</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1728195564829</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="979. Distribute Coins in Binary Tree" />
     <MESSAGE value="1046. Last Stone Weight" />
     <MESSAGE value="2974. Minimum Number Game" />
     <MESSAGE value="Heap" />
@@ -508,7 +515,8 @@
     <MESSAGE value="04-10-24" />
     <MESSAGE value="567. Permutation in String" />
     <MESSAGE value="leetcode 75" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 75" />
+    <MESSAGE value="1813. Sentence Similarity III" />
+    <option name="LAST_COMMIT_MESSAGE" value="1813. Sentence Similarity III" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1467,6 +1475,31 @@
           <url>file://$PROJECT_DIR$/src/TwoPointer/AreSentencesSimilar.java</url>
           <line>22</line>
           <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode_75/CoseStrings.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/EqualPairs.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/EqualPairs.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="656" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
