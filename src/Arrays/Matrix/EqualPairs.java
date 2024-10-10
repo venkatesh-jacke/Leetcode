@@ -1,5 +1,8 @@
 package Arrays.Matrix;
 
+
+//2352. Equal Row and Column Pairs
+
 public class EqualPairs {
     public static void main(String[] args) {
         int[][] grid = {{3, 2, 1}, {1, 7, 6}, {2, 7, 7}};
