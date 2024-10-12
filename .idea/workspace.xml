@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//921. Minimum Add to Make Parentheses Valid">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MaxWidthRamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaxWidthRamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MaxWidthRamp.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//962. Maximum Width Ramp">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MeetingRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SmallestChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/MinGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MeetingRoomII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/SmallestChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/MinGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ChalkReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ChalkReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Matrix/EqualPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Matrix/EqualPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +45,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SlidingWindow.MaxWidthRamp">
+  <component name="RunManager" selected="Application.MeetingRoomsII">
     <configuration name="BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.BuildArrayFromPermutation" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EqualPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.EqualPairs" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAddToMakeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.MinAddToMakeValid" />
+    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MeetingRooms" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingRoomsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.MeetingRoomsII" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeetingRoomsII" />
+        <item itemvalue="Application.MeetingRooms" />
         <item itemvalue="Application.SlidingWindow.MaxWidthRamp" />
         <item itemvalue="Application.MaxWidthRamp" />
         <item itemvalue="Application.BuildArrayFromPermutation" />
-        <item itemvalue="Application.MinAddToMakeValid" />
-        <item itemvalue="Application.EqualPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00058" summary="1. Two Sum">
-      <created>1711204401969</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1711204401971</updated>
     </task>
     <task id="LOCAL-00059" summary="1816. Truncate Sentence">
       <created>1712896194407</created>
@@ -471,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728454639789</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="//962. Maximum Width Ramp">
+      <created>1728543115474</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1728543115474</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2974. Minimum Number Game" />
     <MESSAGE value="Heap" />
     <MESSAGE value="subset and subsets-2" />
     <MESSAGE value="260. Single Number III" />
@@ -511,7 +512,8 @@
     <MESSAGE value="leetcode 75" />
     <MESSAGE value="1813. Sentence Similarity III" />
     <MESSAGE value="//921. Minimum Add to Make Parentheses Valid" />
-    <option name="LAST_COMMIT_MESSAGE" value="//921. Minimum Add to Make Parentheses Valid" />
+    <MESSAGE value="//962. Maximum Width Ramp" />
+    <option name="LAST_COMMIT_MESSAGE" value="//962. Maximum Width Ramp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
