@@ -16,10 +16,12 @@ class MeetingRoomsII {
         PriorityQueue<Integer> heap = new PriorityQueue<>((a, b) -> a - b);
         heap.add(intervals[0][1]);
         for (int i = 1; i < n; i++) {
+
+            //  free up a room as a meeting has ended
             if (intervals[i][0] >= heap.peek()) {
                 heap.poll();
             }
-            heap.add(intervals[i][1]);
+            heap.add(intervals[i][1]); // If a meeting starts before or when the earliest meeting ends, allocate a new room
         }
         return heap.size();
     }

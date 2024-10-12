@@ -5,8 +5,14 @@ import java.util.Arrays;
 public class MeetingRoomsII {
     public static void main(String[] args) {
         int[][] meetings = {{0, 30}, {5, 10}, {15, 20}};
-        int[][] meetings2 = {{7, 10}, {2, 4}};
-        System.out.println(minMeetingRooms(meetings));
+        int[][] intervals = {
+                {5, 10},
+                {6, 8},
+                {1, 5},
+                {2, 3},
+                {1, 10}
+        };
+        System.out.println(minMeetingRooms(intervals));
     }
 
     static int minMeetingRooms(int[][] intervals) {
@@ -20,17 +26,17 @@ public class MeetingRoomsII {
         Arrays.sort(startTime);
         Arrays.sort(endTime);
         int startPtr = 0, endPtr = 0, min_rooms = 0, roomInUse = 0;
-        while(endPtr < n){
-            //Need a new room
+        while(startPtr < n){
+           // If a meeting starts before or when the earliest meeting ends, allocate a new group
             if (startTime[startPtr] < endTime[endPtr]){
                 roomInUse++;
-                endPtr++;
+                startPtr++;
             }
 
-            //Room is free we can use it
+            // Otherwise, free up a group as a meeting has ended
             else{
                 roomInUse--;
-                startPtr++;
+                endPtr++;
             }
             min_rooms=Math.max(min_rooms,roomInUse);
         }
