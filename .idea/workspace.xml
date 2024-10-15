@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="MinGroups">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="meeting room">
+      <change afterPath="$PROJECT_DIR$/src/Heap/MaxKElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/MinimumSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/MeetingRoomsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/MinGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/MinGroups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TwoPointer.MeetingRoomsII">
+  <component name="RunManager" selected="Application.MinimumSteps">
     <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.MeetingRooms" />
       <module name="LeetCode" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindow.MaxWidthRamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.MaxWidthRamp" />
+    <configuration name="MinimumSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MinimumSteps" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSteps" />
         <item itemvalue="Application.TwoPointer.MeetingRoomsII" />
         <item itemvalue="Application.MinGroups" />
         <item itemvalue="Application.MeetingRoomsII" />
         <item itemvalue="Application.MeetingRooms" />
-        <item itemvalue="Application.SlidingWindow.MaxWidthRamp" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00060" summary="12-04-24">
-      <created>1712896243324</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1712896243324</updated>
     </task>
     <task id="LOCAL-00061" summary="709. To Lower Case">
       <created>1712899112005</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728720945905</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="meeting room">
+      <created>1728735954084</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1728735954085</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="260. Single Number III" />
     <MESSAGE value="1275. Find Winner on a Tic Tac Toe Game" />
     <MESSAGE value="commit" />
     <MESSAGE value="Leetcode 75 7-problems commit" />
@@ -508,7 +507,8 @@
     <MESSAGE value="//962. Maximum Width Ramp" />
     <MESSAGE value="minGroups" />
     <MESSAGE value="MinGroups" />
-    <option name="LAST_COMMIT_MESSAGE" value="MinGroups" />
+    <MESSAGE value="meeting room" />
+    <option name="LAST_COMMIT_MESSAGE" value="meeting room" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
