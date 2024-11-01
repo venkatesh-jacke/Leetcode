@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//2938. Separate Black and White Balls">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSquareStreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/MaxMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RemoveSubfolders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/CountMaxOrSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/FindKthBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/MaxMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/LongestSquareStreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/LongestDiverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/MaximumSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memoization/CountMaxOrSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CountMaxOrSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindKthBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/LongestDiverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/MaxUniqueSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RemoveSubfolders.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="daily challenges">
+      <change afterPath="$PROJECT_DIR$/src/Strings/MakeFancyString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestSquareStreak">
+  <component name="RunManager" selected="Application.MakeFancyString">
     <configuration name="DynmaicProgramming.FindKthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynmaicProgramming.FindKthBit" />
       <module name="LeetCode" />
@@ -67,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FindKthBit" />
+    <configuration name="LongestSquareStreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSquareStreak" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSquareStreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSquareStreak" />
+    <configuration name="MakeFancyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MakeFancyString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakeFancyString" />
         <item itemvalue="Application.LongestSquareStreak" />
         <item itemvalue="Application.RemoveSubfolders" />
         <item itemvalue="Application.MaxUniqueSplit" />
         <item itemvalue="Application.DynmaicProgramming.FindKthBit" />
-        <item itemvalue="Application.FindKthBit" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00062" summary="1832. Check if the Sentence Is Pangram">
-      <created>1712900623802</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1712900623802</updated>
     </task>
     <task id="LOCAL-00063" summary="top k frequent quick select algo">
       <created>1713195409977</created>
@@ -481,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729004672609</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="daily challenges">
+      <created>1730305857622</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1730305857625</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
     <MESSAGE value="Leetcode 75 7-problems commit" />
     <MESSAGE value="443. String Compression" />
     <MESSAGE value="238. Product of Array Except Self" />
@@ -521,7 +506,8 @@
     <MESSAGE value="MinGroups" />
     <MESSAGE value="meeting room" />
     <MESSAGE value="//2938. Separate Black and White Balls" />
-    <option name="LAST_COMMIT_MESSAGE" value="//2938. Separate Black and White Balls" />
+    <MESSAGE value="daily challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
