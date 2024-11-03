@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="daily challenges">
-      <change afterPath="$PROJECT_DIR$/src/Strings/MakeFancyString.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1957. Delete Characters to Make Fancy String">
+      <change afterPath="$PROJECT_DIR$/src/Strings/IsCircularSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RotateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MakeFancyString">
-    <configuration name="DynmaicProgramming.FindKthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynmaicProgramming.FindKthBit" />
+  <component name="RunManager" selected="Application.RotateString">
+    <configuration name="IsCircularSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.IsCircularSentence" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynmaicProgramming.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxUniqueSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MaxUniqueSplit" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveSubfolders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.RemoveSubfolders" />
       <module name="LeetCode" />
@@ -105,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RotateString" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateString" />
+        <item itemvalue="Application.IsCircularSentence" />
         <item itemvalue="Application.MakeFancyString" />
         <item itemvalue="Application.LongestSquareStreak" />
         <item itemvalue="Application.RemoveSubfolders" />
-        <item itemvalue="Application.MaxUniqueSplit" />
-        <item itemvalue="Application.DynmaicProgramming.FindKthBit" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00063" summary="top k frequent quick select algo">
-      <created>1713195409977</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1713195409978</updated>
     </task>
     <task id="LOCAL-00064" summary="496. Next Greater Element I">
       <created>1713197594076</created>
@@ -467,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730305857625</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="1957. Delete Characters to Make Fancy String">
+      <created>1730439730649</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1730439730649</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Leetcode 75 7-problems commit" />
     <MESSAGE value="443. String Compression" />
     <MESSAGE value="238. Product of Array Except Self" />
     <MESSAGE value="283. Move Zeroes" />
@@ -507,7 +507,8 @@
     <MESSAGE value="meeting room" />
     <MESSAGE value="//2938. Separate Black and White Balls" />
     <MESSAGE value="daily challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily challenges" />
+    <MESSAGE value="1957. Delete Characters to Make Fancy String" />
+    <option name="LAST_COMMIT_MESSAGE" value="1957. Delete Characters to Make Fancy String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1571,6 +1572,16 @@
           <url>file://$PROJECT_DIR$/src/Arrays/LongestSquareStreak.java</url>
           <line>25</line>
           <option name="timeStamp" value="683" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MakeFancyString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="685" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MakeFancyString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="686" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
