@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1957. Delete Characters to Make Fancy String">
-      <change afterPath="$PROJECT_DIR$/src/Strings/IsCircularSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RotateString.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2914. Minimum Number of Changes to Make Binary String Beautiful">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch/CountFairPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch/MinimizedMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CanSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Decrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PrimeSubOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ResultsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/GetMaximumXor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/LargestCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinimumSubarrayLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dequeue/ShortestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MinimizedMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/ShortestSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/TakeCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Decrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/CountFairPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/FindLengthOfShortestSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +58,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RotateString">
-    <configuration name="IsCircularSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.IsCircularSentence" />
+  <component name="RunManager" selected="Application.TakeCharacters">
+    <configuration name="CountFairPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.BinarySearch.CountFairPairs" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Arrays.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSquareStreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSquareStreak" />
+    <configuration name="ResultsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ResultsArray" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeFancyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MakeFancyString" />
+    <configuration name="ShortestSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.ShortestSubarray" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveSubfolders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RemoveSubfolders" />
+    <configuration name="TakeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.TakeCharacters" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RotateString" />
+    <configuration name="TwoPointer.CountFairPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.CountFairPairs" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.IsCircularSentence" />
-        <item itemvalue="Application.MakeFancyString" />
-        <item itemvalue="Application.LongestSquareStreak" />
-        <item itemvalue="Application.RemoveSubfolders" />
+        <item itemvalue="Application.TakeCharacters" />
+        <item itemvalue="Application.ShortestSubarray" />
+        <item itemvalue="Application.ResultsArray" />
+        <item itemvalue="Application.TwoPointer.CountFairPairs" />
+        <item itemvalue="Application.CountFairPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -124,20 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00064" summary="496. Next Greater Element I">
-      <created>1713197594076</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1713197594077</updated>
-    </task>
-    <task id="LOCAL-00065" summary="1700. Number of Students Unable to Eat Lunch">
-      <created>1713284542513</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1713284542514</updated>
     </task>
     <task id="LOCAL-00066" summary="https://leetcode.com/problems/design-linked-list/">
       <created>1713334956949</created>
@@ -468,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730439730649</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="796. Rotate String">
+      <created>1730613095486</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1730613095486</updated>
+    </task>
+    <task id="LOCAL-00114" summary="2914. Minimum Number of Changes to Make Binary String Beautiful">
+      <created>1730777460034</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1730777460034</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,8 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="443. String Compression" />
-    <MESSAGE value="238. Product of Array Except Self" />
     <MESSAGE value="283. Move Zeroes" />
     <MESSAGE value="392. Is Subsequence" />
     <MESSAGE value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
@@ -508,7 +524,9 @@
     <MESSAGE value="//2938. Separate Black and White Balls" />
     <MESSAGE value="daily challenges" />
     <MESSAGE value="1957. Delete Characters to Make Fancy String" />
-    <option name="LAST_COMMIT_MESSAGE" value="1957. Delete Characters to Make Fancy String" />
+    <MESSAGE value="796. Rotate String" />
+    <MESSAGE value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
+    <option name="LAST_COMMIT_MESSAGE" value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1410,7 +1428,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>27</line>
+          <line>6</line>
           <option name="timeStamp" value="638" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1582,6 +1600,11 @@
           <url>file://$PROJECT_DIR$/src/Strings/MakeFancyString.java</url>
           <line>17</line>
           <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ResultsArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="692" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
