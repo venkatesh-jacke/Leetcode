@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2914. Minimum Number of Changes to Make Binary String Beautiful">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch/CountFairPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch/MinimizedMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CanSortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/PrimeSubOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ResultsArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/GetMaximumXor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/LargestCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinimumSubarrayLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dequeue/ShortestSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/MinimizedMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/ShortestSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/TakeCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/CountFairPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/FindLengthOfShortestSubarray.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="daily changes">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/CountUnguarded.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +39,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TakeCharacters">
-    <configuration name="CountFairPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BinarySearch.CountFairPairs" />
+  <component name="RunManager" selected="Application.CountUnguarded">
+    <configuration name="CountUnguarded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.CountUnguarded" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.BinarySearch.*" />
+          <option name="PATTERN" value="Arrays.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountUnguarded" />
         <item itemvalue="Application.TakeCharacters" />
         <item itemvalue="Application.ShortestSubarray" />
         <item itemvalue="Application.ResultsArray" />
         <item itemvalue="Application.TwoPointer.CountFairPairs" />
-        <item itemvalue="Application.CountFairPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00066" summary="https://leetcode.com/problems/design-linked-list/">
-      <created>1713334956949</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1713334956949</updated>
     </task>
     <task id="LOCAL-00067" summary="1656. Design an Ordered Stream">
       <created>1713444953215</created>
@@ -486,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730777460034</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="daily changes">
+      <created>1732174909114</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1732174909115</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="283. Move Zeroes" />
     <MESSAGE value="392. Is Subsequence" />
     <MESSAGE value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
     <MESSAGE value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
@@ -526,7 +506,8 @@
     <MESSAGE value="1957. Delete Characters to Make Fancy String" />
     <MESSAGE value="796. Rotate String" />
     <MESSAGE value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
-    <option name="LAST_COMMIT_MESSAGE" value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
+    <MESSAGE value="daily changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
