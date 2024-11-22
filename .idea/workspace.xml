@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="daily changes">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/CountUnguarded.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2257. Count Unguarded Cells in the Grid">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/MaxEqualRowsAfterFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/MaxEqualRowsAfterFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountUnguarded">
+  <component name="RunManager" selected="Application.MaxEqualRowsAfterFlips">
     <configuration name="CountUnguarded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.CountUnguarded" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxEqualRowsAfterFlips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.MaxEqualRowsAfterFlips" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPointer.CountFairPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.CountFairPairs" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TwoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxEqualRowsAfterFlips" />
         <item itemvalue="Application.CountUnguarded" />
         <item itemvalue="Application.TakeCharacters" />
         <item itemvalue="Application.ShortestSubarray" />
         <item itemvalue="Application.ResultsArray" />
-        <item itemvalue="Application.TwoPointer.CountFairPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00067" summary="1656. Design an Ordered Stream">
-      <created>1713444953215</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1713444953216</updated>
     </task>
     <task id="LOCAL-00068" summary="2105. Watering Plants II">
       <created>1713518306257</created>
@@ -467,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732174909115</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="2257. Count Unguarded Cells in the Grid">
+      <created>1732181790881</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1732181790881</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="392. Is Subsequence" />
     <MESSAGE value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
     <MESSAGE value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
     <MESSAGE value="1190. Reverse Substrings Between Each Pair of Parentheses" />
@@ -507,7 +507,8 @@
     <MESSAGE value="796. Rotate String" />
     <MESSAGE value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
     <MESSAGE value="daily changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily changes" />
+    <MESSAGE value="2257. Count Unguarded Cells in the Grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="2257. Count Unguarded Cells in the Grid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
