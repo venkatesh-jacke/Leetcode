@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//1072. Flip Columns For Maximum Number of Equal Rows">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/Transpose.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//867. Transpose Matrix">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/MaxMatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/RotateTheBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +42,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Transpose">
-    <configuration name="CountUnguarded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.CountUnguarded" />
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.ShortestSubarray" />
+    <configuration name="MaxMatrixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.MaxMatrixSum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Arrays.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.TakeCharacters" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.RemoveDuplicates" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.MaxMatrixSum" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Transpose" />
         <item itemvalue="Application.MaxEqualRowsAfterFlips" />
-        <item itemvalue="Application.CountUnguarded" />
-        <item itemvalue="Application.TakeCharacters" />
-        <item itemvalue="Application.ShortestSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00069" summary="200. Number of Islands">
-      <created>1713519748555</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1713519748555</updated>
     </task>
     <task id="LOCAL-00070" summary="142. Linked List Cycle II">
       <created>1713538812981</created>
@@ -467,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732291205948</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="//867. Transpose Matrix">
+      <created>1732339775467</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1732339775467</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray" />
     <MESSAGE value="1190. Reverse Substrings Between Each Pair of Parentheses" />
     <MESSAGE value="2196. Create Binary Tree From Descriptions" />
     <MESSAGE value="22-07-24" />
@@ -507,7 +503,8 @@
     <MESSAGE value="daily changes" />
     <MESSAGE value="2257. Count Unguarded Cells in the Grid" />
     <MESSAGE value="//1072. Flip Columns For Maximum Number of Equal Rows" />
-    <option name="LAST_COMMIT_MESSAGE" value="//1072. Flip Columns For Maximum Number of Equal Rows" />
+    <MESSAGE value="//867. Transpose Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="//867. Transpose Matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,11 +1405,6 @@
           <option name="timeStamp" value="635" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="638" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/DividePlayers.java</url>
           <line>22</line>
           <option name="timeStamp" value="639" />
@@ -1586,6 +1578,11 @@
           <url>file://$PROJECT_DIR$/src/Arrays/ResultsArray.java</url>
           <line>26</line>
           <option name="timeStamp" value="692" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="695" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
