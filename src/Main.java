@@ -9,7 +9,7 @@ class Main {
     }
 
     static  public int getMinDiff(int k, int[] arr){
-        // code here
+        // code here ssss
         int n=arr.length;
         Arrays.sort(arr);
         int ans= arr[n-1]-arr[0];
