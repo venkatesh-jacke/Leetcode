@@ -1,38 +1,30 @@
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.*;
 
 class Main {
 
     public static void main(String[] args) {
-        int[] nums = {2, 3, 5, 1, 3, 2};
-
-        System.out.println(findScore(nums));
+        System.out.println(getMinDiff(3,new int[]{1,5,8,10}));
 
     }
 
-    static public long findScore(int[] nums) {
-        int n = nums.length;
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[1] != b[1] ? a[1] - b[1] : a[0] - b[0]);
-        for (int i = 0; i < n; i++) {
-            minHeap.offer(new int[]{i, nums[i]});
-        }
-        boolean[] marked = new boolean[n];
-        long ans = 0;
-        while (!minHeap.isEmpty()) {
-            int[] poll = minHeap.poll();
-            if (!marked[poll[0]]) {
-                ans += poll[1];
-                marked[poll[0]] = true;
-                if (poll[0] - 1 >= 0){
-                    marked[poll[0] - 1] = true;
+    static  public int getMinDiff(int k, int[] arr){
+        // code here ssss
+        int n=arr.length;
+        Arrays.sort(arr);
+        int ans= arr[n-1]-arr[0];
+        int smallest=arr[0]+k;
+        int largest=arr[n-1]-k;
 
-                }
-                if (poll[0] + 1 < n) {
-                    marked[poll[0] + 1] = true;
-                }
-            }
+        for(int i=0;i<n-1;i++){
+            int min = Math.min(smallest,arr[i+1]-k);
+            int max=Math.max(largest,arr[i]+k);
+            System.out.println("min "+min+" max "+max);
+            ans=Math.min(ans,max-min);
         }
         return ans;
+
     }
+
+
 }
