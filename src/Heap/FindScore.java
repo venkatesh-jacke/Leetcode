@@ -11,6 +11,7 @@ public class FindScore {
 
         System.out.println(findScore(nums));
 
+
     }
 
     static public long findScore(int[] nums) {
