@@ -1,8 +1,10 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.*;
+package Heap;
 
-class Main {
+import java.util.PriorityQueue;
+
+
+//2593. Find Score of an Array After Marking All Elements
+public class FindScore {
 
     public static void main(String[] args) {
         int[] nums = {2, 3, 5, 1, 3, 2};

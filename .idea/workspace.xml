@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//867. Transpose Matrix">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/MaxMatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/RotateTheBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="26. Remove Duplicates from Sorted Array">
+      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceAfterQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/SlidingPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Dijkstra/MinimumObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/FindChampion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/CheckIfExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/subarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/FindScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/PickGifts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumBeauty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/CanMakeSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Strstr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -42,7 +51,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FindChampion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.FindChampion" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -50,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxEqualRowsAfterFlips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.MaxEqualRowsAfterFlips" />
+    <configuration name="PickGifts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.PickGifts" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,21 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMatrixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.MaxMatrixSum" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.RemoveDuplicates" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.RemoveElement" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transpose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Matrix.Transpose" />
+    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.subarraySum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.Matrix.*" />
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.MaxMatrixSum" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Transpose" />
-        <item itemvalue="Application.MaxEqualRowsAfterFlips" />
+        <item itemvalue="Application.PickGifts" />
+        <item itemvalue="Application.subarraySum" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.FindChampion" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00070" summary="142. Linked List Cycle II">
-      <created>1713538812981</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1713538812982</updated>
     </task>
     <task id="LOCAL-00071" summary="328. Odd Even Linked List">
       <created>1713686167600</created>
@@ -464,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732339775467</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="26. Remove Duplicates from Sorted Array">
+      <created>1732434829984</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1732434829984</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -479,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1190. Reverse Substrings Between Each Pair of Parentheses" />
     <MESSAGE value="2196. Create Binary Tree From Descriptions" />
     <MESSAGE value="22-07-24" />
     <MESSAGE value="24-07-24" />
@@ -504,7 +512,8 @@
     <MESSAGE value="2257. Count Unguarded Cells in the Grid" />
     <MESSAGE value="//1072. Flip Columns For Maximum Number of Equal Rows" />
     <MESSAGE value="//867. Transpose Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="//867. Transpose Matrix" />
+    <MESSAGE value="26. Remove Duplicates from Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="26. Remove Duplicates from Sorted Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1580,9 +1589,34 @@
           <option name="timeStamp" value="692" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/subarraySum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/PickGifts.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/PickGifts.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="714" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/PickGifts.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>22</line>
-          <option name="timeStamp" value="695" />
+          <option name="timeStamp" value="716" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="718" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
