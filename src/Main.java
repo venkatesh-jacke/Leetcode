@@ -1,28 +1,25 @@
-import java.util.Arrays;
+import java.util.*;
 import java.util.HashMap;
 
 class Main {
+    static int count = 0;
 
     public static void main(String[] args) {
-        System.out.println(getMinDiff(3,new int[]{1,5,8,10}));
 
+        String[] arr = {"act", "god", "cat", "dog", "tac"};
+        System.out.println(anagrams(arr));
     }
 
-    static  public int getMinDiff(int k, int[] arr){
-        // code here ssss
-        int n=arr.length;
-        Arrays.sort(arr);
-        int ans= arr[n-1]-arr[0];
-        int smallest=arr[0]+k;
-        int largest=arr[n-1]-k;
+    static public ArrayList<ArrayList<String>> anagrams(String[] arr) {
+        // code here
+        ArrayList<ArrayList<String>> res = new ArrayList<>();
+        HashMap<String, ArrayList<String>> map = new HashMap<>();
 
-        for(int i=0;i<n-1;i++){
-            int min = Math.min(smallest,arr[i+1]-k);
-            int max=Math.max(largest,arr[i]+k);
-            System.out.println("min "+min+" max "+max);
-            ans=Math.min(ans,max-min);
+        for (String str : arr) {
+            String sortedString = new String(str.chars().sorted().toArray(),0,str.length());
+            map.computeIfAbsent(sortedString,k->new ArrayList<>()).add(str);
         }
-        return ans;
+        return new ArrayList<>(map.values());
 
     }
 

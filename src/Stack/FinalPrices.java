@@ -35,24 +35,15 @@ public class FinalPrices {
 
     //TC O(n)
     //SC O(n)
-    static public int[] finalPrices2(int[] arr){
-        int[] ans = new int[arr.length];
+    static public int[] finalPrices2(int[] arr) {
+        int[] ans = arr.clone();
         Stack<Integer> stack = new Stack<>();
-
         for (int i = 0; i < arr.length; i++) {
-
-            //we pop the index and update the value until we see value greater tha pushing value
             while (!stack.isEmpty() && arr[i] <= arr[stack.peek()]) {
-                int index = stack.pop();
-                ans[index] = arr[index] - arr[i];
+                int idx = stack.pop();
+                ans[idx] = arr[idx] - arr[i];
             }
             stack.push(i);
-        }
-
-        // Set final prices for elements with non-finalized prices
-        while (!stack.isEmpty()) {
-            int index = stack.pop();
-            ans[index] = arr[index];
         }
 
         return ans;

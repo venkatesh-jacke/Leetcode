@@ -4,21 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="26. Remove Duplicates from Sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceAfterQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/SlidingPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dijkstra/MinimumObstacles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/FindChampion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/CheckIfExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/subarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/FindScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/PickGifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumBeauty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/CanMakeSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Strstr.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="Happy new year">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindErrorNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LeftmostBuildingQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/GetFinalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MaxAverageRatio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/RepeatLimitedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memoization/FindTargetSumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FindTargetSumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/ContinuousSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/IsValidParantheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MinInsertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/MaxScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/VowelStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/LargestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/MinimumOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/ReverseOddLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Dfs/LargestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/ReverseOddLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/GameOfTwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/NumRescueBoats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/NumSubarraysWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ZeroFilledSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/FinalPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/FinalPrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +67,12 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="FindChampion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.FindChampion" />
+    <configuration name="FindTargetSumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memoization.FindTargetSumWays" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="Memoization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PickGifts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.PickGifts" />
+    <configuration name="MaxScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MaxScore" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.RemoveElement" />
+    <configuration name="MinInsertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.MinInsertions" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TwoPointer.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.subarraySum" />
+    <configuration name="VowelStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.VowelStrings" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PickGifts" />
-        <item itemvalue="Application.subarraySum" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.FindChampion" />
+        <item itemvalue="Application.VowelStrings" />
+        <item itemvalue="Application.MaxScore" />
+        <item itemvalue="Application.MinInsertions" />
+        <item itemvalue="Application.FindTargetSumWays" />
       </list>
     </recent_temporary>
   </component>
@@ -129,20 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00071" summary="328. Odd Even Linked List">
-      <created>1713686167600</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1713686167600</updated>
-    </task>
-    <task id="LOCAL-00072" summary="19. Remove Nth Node From End of List">
-      <created>1713686301625</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1713686301625</updated>
     </task>
     <task id="LOCAL-00073" summary="//2. Add Two Numbers">
       <created>1713799994659</created>
@@ -473,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732434829984</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary=" 13-12-2024">
+      <created>1734068184510</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1734068184511</updated>
+    </task>
+    <task id="LOCAL-00121" summary=" 13-12-2024">
+      <created>1734068236605</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1734068236605</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,8 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2196. Create Binary Tree From Descriptions" />
-    <MESSAGE value="22-07-24" />
     <MESSAGE value="24-07-24" />
     <MESSAGE value="20-09-24" />
     <MESSAGE value="21-09-24" />
@@ -513,7 +526,9 @@
     <MESSAGE value="//1072. Flip Columns For Maximum Number of Equal Rows" />
     <MESSAGE value="//867. Transpose Matrix" />
     <MESSAGE value="26. Remove Duplicates from Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Remove Duplicates from Sorted Array" />
+    <MESSAGE value=" 13-12-2024" />
+    <MESSAGE value="Happy new year" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy new year" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,26 +742,6 @@
           <url>file://$PROJECT_DIR$/src/Stack/RemoveOuterParentheses.java</url>
           <line>41</line>
           <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/FinalPrices.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Stack/CalPoints.java</url>
@@ -1609,14 +1604,59 @@
           <option name="timeStamp" value="715" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="716" />
+          <url>file://$PROJECT_DIR$/src/Arrays/LeftmostBuildingQueries.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="720" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="718" />
+          <url>file://$PROJECT_DIR$/src/Arrays/LeftmostBuildingQueries.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/LeftmostBuildingQueries.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="722" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindDuplicates.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="724" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindDuplicates.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="725" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindDuplicates.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="726" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindErrorNums.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="727" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindErrorNums.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="728" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindErrorNums.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="730" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MaxScore.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="737" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/MaxScore.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="738" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

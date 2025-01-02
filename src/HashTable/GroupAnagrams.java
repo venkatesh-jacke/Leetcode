@@ -23,4 +23,15 @@ public class GroupAnagrams {
 
         return new ArrayList(map.values());
     }
+
+    static public List<List<String>> groupAnagrams2(String[] strs) {
+        HashMap<String, List<String>> map = new HashMap<>();
+        for (String s : strs) {
+            String sortedString = new String(s.chars().sorted().toArray(),0,s.length());
+            map.computeIfAbsent(sortedString,k->new ArrayList<>()).add(s);
+        }
+
+
+        return new ArrayList<>(map.values());
+    }
 }
