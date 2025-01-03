@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="Happy new year">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindErrorNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LeftmostBuildingQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/GetFinalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/MaxAverageRatio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/RepeatLimitedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memoization/FindTargetSumWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindTargetSumWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/ContinuousSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/IsValidParantheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MinInsertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/MaxScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/VowelStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/LargestValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/MinimumOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/ReverseOddLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Dfs/LargestValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/ReverseOddLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/GameOfTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/NumRescueBoats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/NumSubarraysWithSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ZeroFilledSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/FinalPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/FinalPrices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MinAddToMakeValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00073" summary="//2. Add Two Numbers">
-      <created>1713799994659</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1713799994660</updated>
     </task>
     <task id="LOCAL-00074" summary="2370. Longest Ideal Subsequence">
       <created>1714057976055</created>
@@ -488,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734068236605</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Happy new year">
+      <created>1735833730028</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1735833730029</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

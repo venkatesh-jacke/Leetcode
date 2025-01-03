@@ -2,25 +2,27 @@ import java.util.*;
 import java.util.HashMap;
 
 class Main {
-    static int count = 0;
+
 
     public static void main(String[] args) {
 
-        String[] arr = {"act", "god", "cat", "dog", "tac"};
-        System.out.println(anagrams(arr));
+        System.out.println(waysToSplitArray(new int[]{9,9,9}));
     }
 
-    static public ArrayList<ArrayList<String>> anagrams(String[] arr) {
-        // code here
-        ArrayList<ArrayList<String>> res = new ArrayList<>();
-        HashMap<String, ArrayList<String>> map = new HashMap<>();
-
-        for (String str : arr) {
-            String sortedString = new String(str.chars().sorted().toArray(),0,str.length());
-            map.computeIfAbsent(sortedString,k->new ArrayList<>()).add(str);
+    static public int waysToSplitArray(int[] nums) {
+        int ans = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            int leftSum = 0;
+            for (int j = i; j <= i; j++) {
+                leftSum += nums[j];
+            }
+            int rightSum = 0;
+            for (int k = i + 1; k < nums.length; k++) {
+                rightSum += nums[k];
+            }
+            if (leftSum > rightSum) ans++;
         }
-        return new ArrayList<>(map.values());
-
+        return ans;
     }
 
 
