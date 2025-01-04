@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="Happy new year">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//2270. Number of Ways to Split Array">
+      <change afterPath="$PROJECT_DIR$/src/HashSet/CountPalindromicSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00074" summary="2370. Longest Ideal Subsequence">
-      <created>1714057976055</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1714057976056</updated>
     </task>
     <task id="LOCAL-00075" summary="430. Flatten a Multilevel Doubly Linked List">
       <created>1714750645329</created>
@@ -461,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735833730029</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="//2270. Number of Ways to Split Array">
+      <created>1735920736999</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1735920737000</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="24-07-24" />
     <MESSAGE value="20-09-24" />
     <MESSAGE value="21-09-24" />
     <MESSAGE value="02-10-24" />
@@ -501,7 +500,8 @@
     <MESSAGE value="26. Remove Duplicates from Sorted Array" />
     <MESSAGE value=" 13-12-2024" />
     <MESSAGE value="Happy new year" />
-    <option name="LAST_COMMIT_MESSAGE" value="Happy new year" />
+    <MESSAGE value="//2270. Number of Ways to Split Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="//2270. Number of Ways to Split Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1630,6 +1630,21 @@
           <url>file://$PROJECT_DIR$/src/Strings/MaxScore.java</url>
           <line>83</line>
           <option name="timeStamp" value="738" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="739" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="740" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="741" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
