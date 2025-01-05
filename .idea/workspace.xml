@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//2270. Number of Ways to Split Array">
-      <change afterPath="$PROJECT_DIR$/src/HashSet/CountPalindromicSubsequence.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1930. Unique Length-3 Palindromic Subsequences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00075" summary="430. Flatten a Multilevel Doubly Linked List">
-      <created>1714750645329</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1714750645330</updated>
     </task>
     <task id="LOCAL-00076" summary="12-05-24">
       <created>1715501455705</created>
@@ -461,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735920737000</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="1930. Unique Length-3 Palindromic Subsequences">
+      <created>1735975154893</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1735975154894</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20-09-24" />
     <MESSAGE value="21-09-24" />
     <MESSAGE value="02-10-24" />
     <MESSAGE value="04-10-24" />
@@ -501,7 +500,8 @@
     <MESSAGE value=" 13-12-2024" />
     <MESSAGE value="Happy new year" />
     <MESSAGE value="//2270. Number of Ways to Split Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="//2270. Number of Ways to Split Array" />
+    <MESSAGE value="1930. Unique Length-3 Palindromic Subsequences" />
+    <option name="LAST_COMMIT_MESSAGE" value="1930. Unique Length-3 Palindromic Subsequences" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1633,18 +1633,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>16</line>
+          <line>13</line>
           <option name="timeStamp" value="739" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="740" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="741" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
