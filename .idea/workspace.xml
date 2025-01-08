@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2381. Shifting Letters II">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MinOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/StringMatching.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1408. String Matching in an Array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,13 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00077" summary="https://leetcode.com/problems/k-th-smallest-prime-fraction">
-      <created>1715501956572</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1715501956572</updated>
     </task>
     <task id="LOCAL-00078" summary="979. Distribute Coins in Binary Tree">
       <created>1716012945712</created>
@@ -462,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736064959073</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="1408. String Matching in an Array">
+      <created>1736220441649</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1736220441649</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="02-10-24" />
     <MESSAGE value="04-10-24" />
     <MESSAGE value="567. Permutation in String" />
     <MESSAGE value="leetcode 75" />
@@ -502,7 +499,8 @@
     <MESSAGE value="//2270. Number of Ways to Split Array" />
     <MESSAGE value="1930. Unique Length-3 Palindromic Subsequences" />
     <MESSAGE value="2381. Shifting Letters II" />
-    <option name="LAST_COMMIT_MESSAGE" value="2381. Shifting Letters II" />
+    <MESSAGE value="1408. String Matching in an Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="1408. String Matching in an Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
