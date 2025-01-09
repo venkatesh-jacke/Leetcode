@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="1408. String Matching in an Array">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="3042. Count Prefix and Suffix Pairs I" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,13 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00078" summary="979. Distribute Coins in Binary Tree">
-      <created>1716012945712</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1716012945712</updated>
     </task>
     <task id="LOCAL-00079" summary="1046. Last Stone Weight">
       <created>1716024783886</created>
@@ -460,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736220441649</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="3042. Count Prefix and Suffix Pairs I">
+      <created>1736316864506</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1736316864507</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04-10-24" />
     <MESSAGE value="567. Permutation in String" />
     <MESSAGE value="leetcode 75" />
     <MESSAGE value="1813. Sentence Similarity III" />
@@ -500,7 +497,8 @@
     <MESSAGE value="1930. Unique Length-3 Palindromic Subsequences" />
     <MESSAGE value="2381. Shifting Letters II" />
     <MESSAGE value="1408. String Matching in an Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="1408. String Matching in an Array" />
+    <MESSAGE value="3042. Count Prefix and Suffix Pairs I" />
+    <option name="LAST_COMMIT_MESSAGE" value="3042. Count Prefix and Suffix Pairs I" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
