@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2185. Counting Words With a Given Prefix">
-      <change afterPath="$PROJECT_DIR$/src/Strings/WordSubsets.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//916. Word Subsets">
+      <change afterPath="$PROJECT_DIR$/src/Stack/CanBeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CanConstruct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +40,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordSubsets">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.CanBeValid">
+    <configuration name="CanBeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.CanBeValid" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MaxScore" />
+    <configuration name="CanConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CanConstruct" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -60,15 +67,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinInsertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.MinInsertions" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanBeValid" />
+        <item itemvalue="Application.CanConstruct" />
         <item itemvalue="Application.WordSubsets" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.VowelStrings" />
-        <item itemvalue="Application.MaxScore" />
-        <item itemvalue="Application.MinInsertions" />
       </list>
     </recent_temporary>
   </component>
@@ -117,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00080" summary="2974. Minimum Number Game">
-      <created>1716101988552</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1716101988553</updated>
     </task>
     <task id="LOCAL-00081" summary="Heap">
       <created>1716543177321</created>
@@ -461,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736397491444</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="//916. Word Subsets">
+      <created>1736501530113</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1736501530114</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode 75" />
     <MESSAGE value="1813. Sentence Similarity III" />
     <MESSAGE value="//921. Minimum Add to Make Parentheses Valid" />
     <MESSAGE value="//962. Maximum Width Ramp" />
@@ -501,7 +501,8 @@
     <MESSAGE value="1408. String Matching in an Array" />
     <MESSAGE value="3042. Count Prefix and Suffix Pairs I" />
     <MESSAGE value="2185. Counting Words With a Given Prefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="2185. Counting Words With a Given Prefix" />
+    <MESSAGE value="//916. Word Subsets" />
+    <option name="LAST_COMMIT_MESSAGE" value="//916. Word Subsets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1638,13 +1639,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Strings/WordSubsets.java</url>
-          <line>23</line>
+          <line>34</line>
           <option name="timeStamp" value="743" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Strings/WordSubsets.java</url>
           <line>15</line>
           <option name="timeStamp" value="744" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/CanConstruct.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="750" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
