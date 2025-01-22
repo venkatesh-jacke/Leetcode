@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2657. Find the Prefix Common Array of Two Arrays">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinimizeXor.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="//1765. Map of Highest Peak">
+      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/HighestPeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/FirstCompleteIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Trap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,26 +41,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimizeXor">
-    <configuration name="CanBeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.CanBeValid" />
+  <component name="RunManager" selected="Application.FirstCompleteIndex">
+    <configuration name="FirstCompleteIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.FirstCompleteIndex" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CanConstruct" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="HashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,13 +88,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrapRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Bfs.TrapRainWater" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.Bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstCompleteIndex" />
+        <item itemvalue="Application.TrapRainWater" />
         <item itemvalue="Application.MinimizeXor" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.MinimumLength" />
-        <item itemvalue="Application.CanBeValid" />
-        <item itemvalue="Application.CanConstruct" />
       </list>
     </recent_temporary>
   </component>
@@ -117,27 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00084" summary="260. Single Number III">
-      <created>1717132097729</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1717132097729</updated>
-    </task>
-    <task id="LOCAL-00085" summary="1275. Find Winner on a Tic Tac Toe Game">
-      <created>1717132227910</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1717132227910</updated>
-    </task>
-    <task id="LOCAL-00086" summary="commit">
-      <created>1717765219862</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1717765219863</updated>
     </task>
     <task id="LOCAL-00087" summary="Leetcode 75 7-problems commit">
       <created>1717765255847</created>
@@ -461,7 +442,28 @@
       <option name="project" value="LOCAL" />
       <updated>1736830102163</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="2429. Minimize XOR">
+      <created>1736930913876</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1736930913876</updated>
+    </task>
+    <task id="LOCAL-00134" summary="407. Trapping Rain Water II">
+      <created>1737344312418</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1737344312419</updated>
+    </task>
+    <task id="LOCAL-00135" summary="//1765. Map of Highest Peak">
+      <created>1737548201429</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1737548201430</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,9 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minGroups" />
-    <MESSAGE value="MinGroups" />
-    <MESSAGE value="meeting room" />
     <MESSAGE value="//2938. Separate Black and White Balls" />
     <MESSAGE value="daily challenges" />
     <MESSAGE value="1957. Delete Characters to Make Fancy String" />
@@ -501,7 +500,10 @@
     <MESSAGE value="//2116. Check if a Parentheses String Can Be Valid" />
     <MESSAGE value="1400. Construct K Palindrome Strings" />
     <MESSAGE value="2657. Find the Prefix Common Array of Two Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="2657. Find the Prefix Common Array of Two Arrays" />
+    <MESSAGE value="2429. Minimize XOR" />
+    <MESSAGE value="407. Trapping Rain Water II" />
+    <MESSAGE value="//1765. Map of Highest Peak" />
+    <option name="LAST_COMMIT_MESSAGE" value="//1765. Map of Highest Peak" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1655,6 +1657,16 @@
           <url>file://$PROJECT_DIR$/src/HashTable/MinimumLength.java</url>
           <line>18</line>
           <option name="timeStamp" value="753" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FirstCompleteIndex.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="754" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/FirstCompleteIndex.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="756" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
