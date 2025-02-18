@@ -20,7 +20,7 @@ public class ConstructDistancedSequence {
     }
 
     private static boolean backTrack(int n, int[] sequence, boolean[] used, int currentIndex) {
-        //  Skip if currentIndex is already filled
+        //  if all positions filled return true;
         if (currentIndex == sequence.length) return true;
         // skips already filled positions in the sequence.
         if (sequence[currentIndex] != 0) return backTrack(n, sequence, used, currentIndex + 1);
