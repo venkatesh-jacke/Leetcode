@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="42. Trapping Rain Water">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/CountServers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/CountServers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dfs/CheckIfPrerequisite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dfs/FindMaxFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dsu/FindRedundantConnection.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="3. Longest Substring Without Repeating Characters">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackTracking/SmallestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackTracking/SolveNQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/DistributeCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubsetII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/RobotWithString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/ConstructFromPrePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/AnswerString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/IsPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/NumIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/NumIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Strstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Strstr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +59,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindRedundantConnection">
-    <configuration name="CheckIfPrerequisite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Dfs.CheckIfPrerequisite" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.Bfs" />
+      <recent name="Stack" />
+      <recent name="Graph.Dsu" />
+      <recent name="Graph.Bfs" />
+      <recent name="Graph.Dfs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IsPalindrome">
+    <configuration name="AnswerString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.AnswerString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.Dfs.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRedundantConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Dsu.FindRedundantConnection" />
+    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.Candy" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.Dsu.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstCompleteIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.FirstCompleteIndex" />
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.IsPalindrome" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="RobotWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.RobotWithString" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.PermutationOfString" />
+    <configuration name="Strstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.Strstr" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindRedundantConnection" />
-        <item itemvalue="Application.PermutationOfString" />
-        <item itemvalue="Application.CheckIfPrerequisite" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FirstCompleteIndex" />
+        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.Strstr" />
+        <item itemvalue="Application.RobotWithString" />
+        <item itemvalue="Application.AnswerString" />
+        <item itemvalue="Application.Candy" />
       </list>
     </recent_temporary>
   </component>
@@ -122,223 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00090" summary="283. Move Zeroes">
-      <created>1718289339954</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1718289339955</updated>
-    </task>
-    <task id="LOCAL-00091" summary="392. Is Subsequence">
-      <created>1718290563885</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1718290563885</updated>
-    </task>
-    <task id="LOCAL-00092" summary="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
-      <created>1718379216491</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1718379216491</updated>
-    </task>
-    <task id="LOCAL-00093" summary="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
-      <created>1718379233658</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1718379233658</updated>
-    </task>
-    <task id="LOCAL-00094" summary="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
-      <created>1719072921812</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1719072921812</updated>
-    </task>
-    <task id="LOCAL-00095" summary="1248. Count Number of Nice Subarrays Strictly Decreasing Subarray">
-      <created>1719463322095</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1719463322095</updated>
-    </task>
-    <task id="LOCAL-00096" summary="1190. Reverse Substrings Between Each Pair of Parentheses">
-      <created>1720680691606</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1720680691606</updated>
-    </task>
-    <task id="LOCAL-00097" summary="22-07-24">
-      <created>1721620357072</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1721620357072</updated>
-    </task>
-    <task id="LOCAL-00098" summary="24-07-24">
-      <created>1721799788000</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1721799788001</updated>
-    </task>
-    <task id="LOCAL-00099" summary="20-09-24">
-      <created>1726812755220</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1726812755220</updated>
-    </task>
-    <task id="LOCAL-00100" summary="21-09-24">
-      <created>1726898425544</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1726898425545</updated>
-    </task>
-    <task id="LOCAL-00101" summary="02-10-24">
-      <created>1727878226009</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1727878226009</updated>
-    </task>
-    <task id="LOCAL-00102" summary="04-10-24">
-      <created>1728100093142</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1728100093142</updated>
-    </task>
-    <task id="LOCAL-00103" summary="567. Permutation in String">
-      <created>1728107028649</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1728107028649</updated>
-    </task>
-    <task id="LOCAL-00104" summary="leetcode 75">
-      <created>1728139740319</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1728139740319</updated>
-    </task>
-    <task id="LOCAL-00105" summary="1813. Sentence Similarity III">
-      <created>1728195564829</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1728195564829</updated>
-    </task>
-    <task id="LOCAL-00106" summary="//921. Minimum Add to Make Parentheses Valid">
-      <created>1728454639788</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1728454639789</updated>
-    </task>
-    <task id="LOCAL-00107" summary="//962. Maximum Width Ramp">
-      <created>1728543115474</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1728543115474</updated>
-    </task>
-    <task id="LOCAL-00108" summary="MinGroups">
-      <created>1728720945905</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1728720945905</updated>
-    </task>
-    <task id="LOCAL-00109" summary="meeting room">
-      <created>1728735954084</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1728735954085</updated>
-    </task>
-    <task id="LOCAL-00110" summary="//2938. Separate Black and White Balls">
-      <created>1729004672609</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1729004672609</updated>
-    </task>
-    <task id="LOCAL-00111" summary="daily challenges">
-      <created>1730305857622</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1730305857625</updated>
-    </task>
-    <task id="LOCAL-00112" summary="1957. Delete Characters to Make Fancy String">
-      <created>1730439730649</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1730439730649</updated>
-    </task>
-    <task id="LOCAL-00113" summary="796. Rotate String">
-      <created>1730613095486</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1730613095486</updated>
-    </task>
-    <task id="LOCAL-00114" summary="2914. Minimum Number of Changes to Make Binary String Beautiful">
-      <created>1730777460034</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1730777460034</updated>
-    </task>
-    <task id="LOCAL-00115" summary="daily changes">
-      <created>1732174909114</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1732174909115</updated>
-    </task>
-    <task id="LOCAL-00116" summary="2257. Count Unguarded Cells in the Grid">
-      <created>1732181790881</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1732181790881</updated>
-    </task>
-    <task id="LOCAL-00117" summary="//1072. Flip Columns For Maximum Number of Equal Rows">
-      <created>1732291205948</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1732291205948</updated>
-    </task>
-    <task id="LOCAL-00118" summary="//867. Transpose Matrix">
-      <created>1732339775467</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1732339775467</updated>
-    </task>
-    <task id="LOCAL-00119" summary="26. Remove Duplicates from Sorted Array">
-      <created>1732434829984</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1732434829984</updated>
-    </task>
-    <task id="LOCAL-00120" summary=" 13-12-2024">
-      <created>1734068184510</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1734068184511</updated>
     </task>
     <task id="LOCAL-00121" summary=" 13-12-2024">
       <created>1734068236605</created>
@@ -466,7 +279,224 @@
       <option name="project" value="LOCAL" />
       <updated>1737548422655</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="684. Redundant Connection">
+      <created>1738208776617</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1738208776619</updated>
+    </task>
+    <task id="LOCAL-00140" summary="//2658. Maximum Number of Fish in a Grid">
+      <created>1738208901434</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1738208901434</updated>
+    </task>
+    <task id="LOCAL-00141" summary="1462. Course Schedule IV">
+      <created>1738208977215</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1738208977215</updated>
+    </task>
+    <task id="LOCAL-00142" summary="1267. Count Servers that Communicate">
+      <created>1738209025874</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1738209025874</updated>
+    </task>
+    <task id="LOCAL-00143" summary="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
+      <created>1738551360000</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1738551360000</updated>
+    </task>
+    <task id="LOCAL-00144" summary="1752. Check if Array Is Sorted and Rotated">
+      <created>1738551379777</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1738551379777</updated>
+    </task>
+    <task id="LOCAL-00145" summary="1790. Check if One String Swap Can Make Strings Equal">
+      <created>1738737834072</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1738737834072</updated>
+    </task>
+    <task id="LOCAL-00146" summary="1726. Tuple with Same Product">
+      <created>1738828467464</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1738828467464</updated>
+    </task>
+    <task id="LOCAL-00147" summary="323. Number of Connected Components in an Undirected Graph">
+      <created>1738858823782</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858823782</updated>
+    </task>
+    <task id="LOCAL-00148" summary="261. Graph Valid Tree">
+      <created>1738858921666</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858921666</updated>
+    </task>
+    <task id="LOCAL-00149" summary="547. Number of Provinces">
+      <created>1738859019254</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1738859019254</updated>
+    </task>
+    <task id="LOCAL-00150" summary="3160. Find the Number of Distinct Colors Among the Balls">
+      <created>1738901651938</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1738901651938</updated>
+    </task>
+    <task id="LOCAL-00151" summary="1101. The Earliest Moment When Everyone Become Friends">
+      <created>1738912435221</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912435222</updated>
+    </task>
+    <task id="LOCAL-00152" summary="2349. Design a Number Container System">
+      <created>1738990180928</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1738990180929</updated>
+    </task>
+    <task id="LOCAL-00153" summary="2364. Count Number of Bad Pairs">
+      <created>1739077992370</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1739077992371</updated>
+    </task>
+    <task id="LOCAL-00154" summary="3174. Clear Digits">
+      <created>1739157701169</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1739157701170</updated>
+    </task>
+    <task id="LOCAL-00155" summary="1910. Remove All Occurrences of a Substring">
+      <created>1739236501680</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1739236501680</updated>
+    </task>
+    <task id="LOCAL-00156" summary="3066. Minimum Operations to Exceed Threshold Value II">
+      <created>1739421460510</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1739421460510</updated>
+    </task>
+    <task id="LOCAL-00157" summary="2698. Find the Punishment Number of an Integer">
+      <created>1739603147314</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1739603147315</updated>
+    </task>
+    <task id="LOCAL-00158" summary="1718. Construct the Lexicographically Largest Valid Sequence">
+      <created>1739693269196</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1739693269196</updated>
+    </task>
+    <task id="LOCAL-00159" summary="1718. Construct the Lexicographically Largest Valid Sequence">
+      <created>1739852102280</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1739852102281</updated>
+    </task>
+    <task id="LOCAL-00160" summary="1079. Letter Tile Possibilities">
+      <created>1739852124049</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1739852124049</updated>
+    </task>
+    <task id="LOCAL-00161" summary="2342. Max Sum of a Pair With Equal Sum of Digits">
+      <created>1739852215527</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1739852215527</updated>
+    </task>
+    <task id="LOCAL-00162" summary="2375. Construct Smallest Number From DI String">
+      <created>1739895841423</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1739895841424</updated>
+    </task>
+    <task id="LOCAL-00163" summary="1415. The k-th Lexicographical String of All Happy Strings of Length n">
+      <created>1739951361279</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951361279</updated>
+    </task>
+    <task id="LOCAL-00164" summary="1980. Find Unique Binary String">
+      <created>1740028104175</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1740028104177</updated>
+    </task>
+    <task id="LOCAL-00165" summary="1028. Recover a Tree From Preorder Traversal">
+      <created>1740234267755</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1740234267755</updated>
+    </task>
+    <task id="LOCAL-00166" summary="1261. Find Elements in a Contaminated Binary Tree">
+      <created>1740234320933</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1740234320933</updated>
+    </task>
+    <task id="LOCAL-00167" summary="1261. Find Elements in a Contaminated Binary Tree">
+      <created>1740235479594</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1740235479594</updated>
+    </task>
+    <task id="LOCAL-00168" summary="5. Longest Palindromic Substring">
+      <created>1740238535483</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1740238535483</updated>
+    </task>
+    <task id="LOCAL-00169" summary="3. Longest Substring Without Repeating Characters">
+      <created>1740663389462</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663389463</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,32 +511,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="796. Rotate String" />
-    <MESSAGE value="2914. Minimum Number of Changes to Make Binary String Beautiful" />
-    <MESSAGE value="daily changes" />
-    <MESSAGE value="2257. Count Unguarded Cells in the Grid" />
-    <MESSAGE value="//1072. Flip Columns For Maximum Number of Equal Rows" />
-    <MESSAGE value="//867. Transpose Matrix" />
-    <MESSAGE value="26. Remove Duplicates from Sorted Array" />
-    <MESSAGE value=" 13-12-2024" />
-    <MESSAGE value="Happy new year" />
-    <MESSAGE value="//2270. Number of Ways to Split Array" />
-    <MESSAGE value="1930. Unique Length-3 Palindromic Subsequences" />
-    <MESSAGE value="2381. Shifting Letters II" />
-    <MESSAGE value="1408. String Matching in an Array" />
-    <MESSAGE value="3042. Count Prefix and Suffix Pairs I" />
-    <MESSAGE value="2185. Counting Words With a Given Prefix" />
-    <MESSAGE value="//916. Word Subsets" />
-    <MESSAGE value="//2116. Check if a Parentheses String Can Be Valid" />
-    <MESSAGE value="1400. Construct K Palindrome Strings" />
-    <MESSAGE value="2657. Find the Prefix Common Array of Two Arrays" />
-    <MESSAGE value="2429. Minimize XOR" />
-    <MESSAGE value="407. Trapping Rain Water II" />
-    <MESSAGE value="//1765. Map of Highest Peak" />
-    <MESSAGE value="2017. Grid Game" />
-    <MESSAGE value="2661. First Completely Painted Row or Column" />
-    <MESSAGE value="42. Trapping Rain Water" />
-    <option name="LAST_COMMIT_MESSAGE" value="42. Trapping Rain Water" />
+    <MESSAGE value="3105. Longest Strictly Increasing or Strictly Decreasing Subarray" />
+    <MESSAGE value="1752. Check if Array Is Sorted and Rotated" />
+    <MESSAGE value="1790. Check if One String Swap Can Make Strings Equal" />
+    <MESSAGE value="1726. Tuple with Same Product" />
+    <MESSAGE value="323. Number of Connected Components in an Undirected Graph" />
+    <MESSAGE value="261. Graph Valid Tree" />
+    <MESSAGE value="547. Number of Provinces" />
+    <MESSAGE value="3160. Find the Number of Distinct Colors Among the Balls" />
+    <MESSAGE value="1101. The Earliest Moment When Everyone Become Friends" />
+    <MESSAGE value="2349. Design a Number Container System" />
+    <MESSAGE value="2364. Count Number of Bad Pairs" />
+    <MESSAGE value="3174. Clear Digits" />
+    <MESSAGE value="1910. Remove All Occurrences of a Substring" />
+    <MESSAGE value="3066. Minimum Operations to Exceed Threshold Value II" />
+    <MESSAGE value="2698. Find the Punishment Number of an Integer" />
+    <MESSAGE value="1718. Construct the Lexicographically Largest Valid Sequence" />
+    <MESSAGE value="1079. Letter Tile Possibilities" />
+    <MESSAGE value="2342. Max Sum of a Pair With Equal Sum of Digits" />
+    <MESSAGE value="2375. Construct Smallest Number From DI String" />
+    <MESSAGE value="1415. The k-th Lexicographical String of All Happy Strings of Length n" />
+    <MESSAGE value="1980. Find Unique Binary String" />
+    <MESSAGE value="1028. Recover a Tree From Preorder Traversal" />
+    <MESSAGE value="1261. Find Elements in a Contaminated Binary Tree" />
+    <MESSAGE value="5. Longest Palindromic Substring" />
+    <MESSAGE value="3. Longest Substring Without Repeating Characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Longest Substring Without Repeating Characters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,17 +903,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="271" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
-          <line>21</line>
+          <line>24</line>
           <option name="timeStamp" value="273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1628,7 +1658,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <line>9</line>
           <option name="timeStamp" value="739" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1670,6 +1700,111 @@
           <url>file://$PROJECT_DIR$/src/HashTable/FirstCompleteIndex.java</url>
           <line>33</line>
           <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/AreAlmostEqual.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="767" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/Bfs/FindCircleNum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/Bfs/FindCircleNum.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="769" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/Bfs/FindCircleNum.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="770" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MinOperations.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="771" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MinOperations.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MinOperations.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/GetHappyString.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="774" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/GetHappyString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="775" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/GetHappyString.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="776" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="779" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/LongestPalindrome.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/Candy.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="789" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RobotWithString.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="794" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RobotWithString.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RobotWithString.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="796" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/IsPalindrome.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="797" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

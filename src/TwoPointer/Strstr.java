@@ -10,17 +10,14 @@ public class Strstr {
     }
 
     static public int strStr(String haystack, String needle) {
-        for (int i = 0; i < haystack.length(); i++) {
-            if (haystack.charAt(i) == needle.charAt(0)) {
-                int start = i; //find the startingIndex and store it to iterate
-                int j = 0;
-                while (start < haystack.length() && j < needle.length() && haystack.charAt(start) == needle.charAt(j)) {
-                    j++;
-                    start++;
-                }
-                if (j == needle.length())
+        int hayLen = haystack.length(), needleLen = needle.length();
+        if (hayLen < needleLen)
+            return -1;
+        for (int i = 0; i <= hayLen - needleLen; i++) {
+            int j = 0;
+            while (j < needleLen && haystack.charAt(i + j) == needle.charAt(j++))
+                if (j == needleLen)
                     return i;
-            }
         }
         return -1;
     }

@@ -1,0 +1,30 @@
+package Strings;
+
+//2131. Longest Palindrome by Concatenating Two Letter Words
+
+public class LongestPalindrome {
+    public static void main(String[] args) {
+        String[] words = {"ab", "ty", "yt", "lc", "cl", "ab"};
+        System.out.println(longestPalindrome(words));
+    }
+
+    static public int longestPalindrome(String[] words) {
+        int[][] freq = new int[26][26];
+        int ans = 0;
+        for (String word : words) {
+            int a = word.charAt(0) - 'a';
+            int b = word.charAt(1) - 'a';
+            if (freq[b][a] > 0) {
+                freq[b][a]--;
+                ans += 4;
+            } else {
+                freq[a][b]++;
+            }
+        }
+        for (int i = 0; i < 26; i++) {
+            if (freq[i][i] > 0)
+                return ans += 2;
+        }
+        return ans;
+    }
+}

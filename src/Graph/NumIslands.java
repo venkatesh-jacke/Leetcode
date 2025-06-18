@@ -8,7 +8,7 @@ import java.util.Queue;
 
 
 //200. Number of Islands
-public class NumIslands {
+public class    NumIslands {
     static class MyPair {
         int first;
         int second;
