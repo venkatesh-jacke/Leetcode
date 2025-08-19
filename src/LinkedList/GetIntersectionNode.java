@@ -3,20 +3,38 @@ package LinkedList;
 
 import jdk.nashorn.internal.ir.WhileNode;
 
+import java.util.List;
+
 //160. Intersection of Two Linked Lists
 public class GetIntersectionNode {
     public static void main(String[] args) {
-        ListNode headA = new ListNode(3);
+        int intersectVal = 8;
+        int skipA = 2;
+        int skipB = 3;
+        int[] listA_vals = {4, 1, 8, 4, 5};
+        int[] listB_vals = {5, 6, 1};
 
-
-
-        ListNode headB = new ListNode(2);
-        ListNode node3 = new ListNode(3);
-        headB.next = headA;
+        ListNode headA = new ListNode(listA_vals[0]);
+        ListNode curA = headA;
+        ListNode intersection = null;
+        for (int i = 1; i < listA_vals.length; i++) {
+            curA.next = new ListNode(listA_vals[i]);
+            curA = curA.next;
+            if (i == skipA) {
+                intersection = curA;
+            }
+        }
+        ListNode headB = new ListNode(listB_vals[0]);
+        ListNode curB = headB;
+        for (int i = 1; i < listB_vals.length; i++) {
+            curB.next = new ListNode(listB_vals[i]);
+            curB = curB.next;
+        }
+        curB.next = intersection;
 
 
         // Call the method to find the intersection node
-        ListNode intersectionNode = getIntersectionNode2(headA, headB);
+        ListNode intersectionNode = getIntersectionNode(headA, headB);
         System.out.println(intersectionNode.val);
 
     }
@@ -25,7 +43,7 @@ public class GetIntersectionNode {
     //Approach 1 BruteForce
     //Time Complexity is O(m*n) m is length of list1 and n is length of list2
     //Space Complexity is O (1)
-    static public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    static public ListNode getIntersectionNode_brute(ListNode headA, ListNode headB) {
         ListNode tempA = headA;
         while (tempA != null) {
             ListNode tempB = headB;
@@ -40,23 +58,28 @@ public class GetIntersectionNode {
         return null;
     }
 
-    static public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
-        ListNode d1 = headA;
-        ListNode d2 = headB;
-        while (d1 != null || d2 != null) {
-            if (d1 == d2) {
-                return d1;
-            }
-            if (d1 == null) {
-                d1 = headB;
-            }
-            if (d2 == null) {
-                d2 = headA;
-            }
-            d1 = d1.next;
-            d2 = d2.next;
+    static public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null)
+            return null;
+        ListNode a = headA;
+        ListNode b = headB;
+        while (a != b) {
+            a = a == null ? headB : a.next;
+            b = b == null ? headA : b.next;
         }
-        return null;
+        return a;
     }
 
 }
+/*
+🧠 Why This Works
+        Suppose list A has length m + c, and list B has n + c, where c is the shared tail length.
+
+        Pointer 'a' travels m + c, then switches and travels n, totaling m + n + c steps.
+
+        Pointer 'b' travels n + c, then m, also totaling m + n + c steps.
+
+        If there is an intersection, both pointers arrive at that same node at the same time.
+
+        If there isn't, both reach null simultaneously.
+ */

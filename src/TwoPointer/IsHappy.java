@@ -1,4 +1,4 @@
-package HashSet;
+package TwoPointer;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,24 +12,27 @@ class IsHappy {
 
 
     //Time is O(n)
-    //Space is O(n) Set is used
-    static boolean isHappy(int n) {
-        Set<Integer> set = new HashSet<>();
-        while (!set.contains(n)) {
-            set.add(n);
-            n = sumOfSquares(n);
+    //Space is O(1)
+    static public boolean isHappy(int n) {
+        int slow = getNextNumber(n);
+        int fast = getNextNumber(getNextNumber(n));
+        while (slow != fast) {
+            if (fast == 1)
+                return true;
+            slow = getNextNumber(slow);
+            fast = getNextNumber(getNextNumber(fast));
         }
-        return n==1;
+        return slow == 1;
     }
 
-    static public int sumOfSquares(int n){
-        int sum=0;
-        while(n>0){
-            int rem= n%10;
-            sum+=rem*rem;
-            n/=10;
+    static public int getNextNumber(int n) {
+        int ans = 0;
+        while (n != 0) {
+            int d = n % 10;
+            ans += d * d;
+            n /= 10;
         }
-        return sum;
+        return ans;
     }
 }
 
@@ -57,3 +60,9 @@ N=61
 4 ----> 4^2 = 16 [61, 37, 58, 89, 145, 42, 20, 4, 16]
 16 ----> 1^2 + 6^2 = 1 + 36 = 37 [61, 37, 58, 89, 145, 42, 20, 4, 16]
 */
+
+/*
+Moreover, if fast pointer is 1, we can immediately return True because 1 produces 1.
+We know that in the end slow pointer will become 1 at some point,
+because slow pointer will touch each number one by one.
+ */

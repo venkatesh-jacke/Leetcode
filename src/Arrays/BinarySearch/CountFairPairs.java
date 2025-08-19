@@ -24,7 +24,7 @@ public class CountFairPairs {
     }
 
    static public long binarySearch(int arr[], int low, int high, int element) {
-       System.out.println(element);
+       //System.out.println(element);
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (arr[mid] >= element) {
