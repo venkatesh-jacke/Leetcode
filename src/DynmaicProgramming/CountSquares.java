@@ -13,7 +13,7 @@ public class CountSquares {
 
     static public int countSquares(int[][] grid) {
         int m = grid.length, n = grid[0].length;
-        int[][] dp = new int[m + 1][n + 1];
+        int[][] dp = new int[m + 1][n + 1]; //extra padding for boundary
         int ans = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
