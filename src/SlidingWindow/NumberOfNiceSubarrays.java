@@ -26,5 +26,5 @@ public class NumberOfNiceSubarrays {
 }
 
 /*
-No of SubArrays equal to k => No of SubArrays <= k - No of SubArrays <k
+No of SubArrays equal to k => (No of SubArrays <= k) -( No of SubArrays <=k-1)
 */
