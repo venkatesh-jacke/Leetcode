@@ -2,6 +2,8 @@ package SlidingWindow;
 
 import java.util.Arrays;
 
+//2779. Maximum Beauty of an Array After Applying Operation
+
 public class MaximumBeauty {
     public static void main(String[] args) {
         int[] nums = {4,6,1,2};
@@ -10,7 +12,7 @@ public class MaximumBeauty {
     }
 
     static public int maximumBeauty(int[] nums, int k) {
-        Arrays.sort(nums);
+        Arrays.sort(nums); //sorted because easy min value is always at start so just need to chk nums[r] - nums[l] > 2 * k
         int res = 0;
         for (int l = 0, r = 0; r < nums.length; r++) {
             while (nums[r] - nums[l] > 2 * k) {
