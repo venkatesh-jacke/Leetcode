@@ -12,6 +12,7 @@ public class CheckInclusion {
     static public boolean checkInclusion(String s1, String s2) {
         int[] f1 = new int[26];
         int[] f2 = new int[26];
+        //Create a starting window
         for (char c : s1.toCharArray()) {
             f1[c - 'a']++;
         }
