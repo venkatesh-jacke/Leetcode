@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="18-06-25">
-      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/FindLucky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Intersect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/IsSameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/CountHillValley.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/FindContentChildren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/IsHappy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ReverseStr_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ReverseWords.java" afterDir="false" />
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2516. Take K of Each Character From Left and Right">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/BinarySearch/CountFairPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch/CountFairPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashSet/IsHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashSet/IsHappy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode_75/ReverseVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode_75/ReverseVowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/GetIntersectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/ConstructFromPrePost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Venkatesh Jacke/IdeaProjects/DesignPattern&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
@@ -65,49 +49,36 @@
       <recent name="Graph.Bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountFairPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BinarySearch.CountFairPairs" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountHillValley" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.CountHillValley" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TwoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsSameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.IsSameTree" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxWidthRamp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxWidthRamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.MaxWidthRamp" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.MaximumSubarraySum" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.NumberOfSubstrings" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxWidthRamp" />
+        <item itemvalue="Application.MaximumSubarraySum" />
+        <item itemvalue="Application.NumberOfSubstrings" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NthUglyNumber" />
-        <item itemvalue="Application.CountFairPairs" />
-        <item itemvalue="Application.CountHillValley" />
-        <item itemvalue="Application.IsSameTree" />
       </list>
     </recent_temporary>
   </component>
@@ -143,153 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Happy new year">
-      <created>1735833730028</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1735833730029</updated>
-    </task>
-    <task id="LOCAL-00123" summary="//2270. Number of Ways to Split Array">
-      <created>1735920736999</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1735920737000</updated>
-    </task>
-    <task id="LOCAL-00124" summary="1930. Unique Length-3 Palindromic Subsequences">
-      <created>1735975154893</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1735975154894</updated>
-    </task>
-    <task id="LOCAL-00125" summary="2381. Shifting Letters II">
-      <created>1736064959073</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1736064959073</updated>
-    </task>
-    <task id="LOCAL-00126" summary="1408. String Matching in an Array">
-      <created>1736220441649</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1736220441649</updated>
-    </task>
-    <task id="LOCAL-00127" summary="3042. Count Prefix and Suffix Pairs I">
-      <created>1736316864506</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1736316864507</updated>
-    </task>
-    <task id="LOCAL-00128" summary="2185. Counting Words With a Given Prefix">
-      <created>1736397491443</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1736397491444</updated>
-    </task>
-    <task id="LOCAL-00129" summary="//916. Word Subsets">
-      <created>1736501530113</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1736501530114</updated>
-    </task>
-    <task id="LOCAL-00130" summary="//2116. Check if a Parentheses String Can Be Valid">
-      <created>1736664362055</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1736664362055</updated>
-    </task>
-    <task id="LOCAL-00131" summary="1400. Construct K Palindrome Strings">
-      <created>1736664439551</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1736664439551</updated>
-    </task>
-    <task id="LOCAL-00132" summary="2657. Find the Prefix Common Array of Two Arrays">
-      <created>1736830102162</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1736830102163</updated>
-    </task>
-    <task id="LOCAL-00133" summary="2429. Minimize XOR">
-      <created>1736930913876</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1736930913876</updated>
-    </task>
-    <task id="LOCAL-00134" summary="407. Trapping Rain Water II">
-      <created>1737344312418</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1737344312419</updated>
-    </task>
-    <task id="LOCAL-00135" summary="//1765. Map of Highest Peak">
-      <created>1737548201429</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1737548201430</updated>
-    </task>
-    <task id="LOCAL-00136" summary="2017. Grid Game">
-      <created>1737548330695</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1737548330695</updated>
-    </task>
-    <task id="LOCAL-00137" summary="2661. First Completely Painted Row or Column">
-      <created>1737548403400</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1737548403400</updated>
-    </task>
-    <task id="LOCAL-00138" summary="42. Trapping Rain Water">
-      <created>1737548422655</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1737548422655</updated>
-    </task>
-    <task id="LOCAL-00139" summary="684. Redundant Connection">
-      <created>1738208776617</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1738208776619</updated>
-    </task>
-    <task id="LOCAL-00140" summary="//2658. Maximum Number of Fish in a Grid">
-      <created>1738208901434</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1738208901434</updated>
-    </task>
-    <task id="LOCAL-00141" summary="1462. Course Schedule IV">
-      <created>1738208977215</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1738208977215</updated>
-    </task>
-    <task id="LOCAL-00142" summary="1267. Count Servers that Communicate">
-      <created>1738209025874</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1738209025874</updated>
     </task>
     <task id="LOCAL-00143" summary="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
       <created>1738551360000</created>
@@ -487,7 +324,154 @@
       <option name="project" value="LOCAL" />
       <updated>1750252431678</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="19-08-25">
+      <created>1755584660819</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1755584660834</updated>
+    </task>
+    <task id="LOCAL-00172" summary="1004. Max Consecutive Ones III">
+      <created>1755587434419</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1755587434419</updated>
+    </task>
+    <task id="LOCAL-00173" summary="1004. Max Consecutive Ones III">
+      <created>1755587680185</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1755587680185</updated>
+    </task>
+    <task id="LOCAL-00174" summary="904. Fruit Into Baskets">
+      <created>1755588113514</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1755588113514</updated>
+    </task>
+    <task id="LOCAL-00175" summary="76. Minimum Window Substring">
+      <created>1755605313889</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1755605313889</updated>
+    </task>
+    <task id="LOCAL-00176" summary="1358. Number of Substrings Containing All Three Characters">
+      <created>1755610248542</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1755610248542</updated>
+    </task>
+    <task id="LOCAL-00177" summary="1277. Count Square Submatrices with All Ones">
+      <created>1755675674250</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1755675674250</updated>
+    </task>
+    <task id="LOCAL-00178" summary="1277. Count Square Submatrices with All Ones">
+      <created>1755675737156</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1755675737156</updated>
+    </task>
+    <task id="LOCAL-00179" summary="424. Longest Repeating Character Replacement">
+      <created>1755696362722</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1755696362722</updated>
+    </task>
+    <task id="LOCAL-00180" summary="560. Subarray Sum Equals K">
+      <created>1755782466999</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1755782466999</updated>
+    </task>
+    <task id="LOCAL-00181" summary="930. Binary Subarrays With Sum">
+      <created>1755782830170</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1755782830170</updated>
+    </task>
+    <task id="LOCAL-00182" summary="1248. Count Number of Nice Subarrays">
+      <created>1755872300522</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1755872300522</updated>
+    </task>
+    <task id="LOCAL-00183" summary="992. Subarrays with K Different Integers">
+      <created>1755929354591</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1755929354591</updated>
+    </task>
+    <task id="LOCAL-00184" summary="2762. Continuous Subarrays">
+      <created>1755933323166</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1755933323166</updated>
+    </task>
+    <task id="LOCAL-00185" summary="1493. Longest Subarray of 1's After Deleting One Element">
+      <created>1756013255626</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1756013255626</updated>
+    </task>
+    <task id="LOCAL-00186" summary="//498. Diagonal Traverse">
+      <created>1756135531373</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1756135531373</updated>
+    </task>
+    <task id="LOCAL-00187" summary="//498. Diagonal Traverse">
+      <created>1756135602672</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1756135602672</updated>
+    </task>
+    <task id="LOCAL-00188" summary="//567. Permutation in String">
+      <created>1756221607594</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1756221607594</updated>
+    </task>
+    <task id="LOCAL-00189" summary="2779. Maximum Beauty of an Array After Applying Operation">
+      <created>1756223666624</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1756223666624</updated>
+    </task>
+    <task id="LOCAL-00190" summary="2461. Maximum Sum of Distinct Subarrays With Length K">
+      <created>1756276616885</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1756276616885</updated>
+    </task>
+    <task id="LOCAL-00191" summary="962. Maximum Width Ramp">
+      <created>1756278938562</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1756278938562</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,32 +486,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1752. Check if Array Is Sorted and Rotated" />
-    <MESSAGE value="1790. Check if One String Swap Can Make Strings Equal" />
-    <MESSAGE value="1726. Tuple with Same Product" />
-    <MESSAGE value="323. Number of Connected Components in an Undirected Graph" />
-    <MESSAGE value="261. Graph Valid Tree" />
-    <MESSAGE value="547. Number of Provinces" />
-    <MESSAGE value="3160. Find the Number of Distinct Colors Among the Balls" />
-    <MESSAGE value="1101. The Earliest Moment When Everyone Become Friends" />
-    <MESSAGE value="2349. Design a Number Container System" />
-    <MESSAGE value="2364. Count Number of Bad Pairs" />
-    <MESSAGE value="3174. Clear Digits" />
-    <MESSAGE value="1910. Remove All Occurrences of a Substring" />
-    <MESSAGE value="3066. Minimum Operations to Exceed Threshold Value II" />
-    <MESSAGE value="2698. Find the Punishment Number of an Integer" />
-    <MESSAGE value="1718. Construct the Lexicographically Largest Valid Sequence" />
-    <MESSAGE value="1079. Letter Tile Possibilities" />
-    <MESSAGE value="2342. Max Sum of a Pair With Equal Sum of Digits" />
-    <MESSAGE value="2375. Construct Smallest Number From DI String" />
-    <MESSAGE value="1415. The k-th Lexicographical String of All Happy Strings of Length n" />
     <MESSAGE value="1980. Find Unique Binary String" />
     <MESSAGE value="1028. Recover a Tree From Preorder Traversal" />
     <MESSAGE value="1261. Find Elements in a Contaminated Binary Tree" />
     <MESSAGE value="5. Longest Palindromic Substring" />
     <MESSAGE value="3. Longest Substring Without Repeating Characters" />
     <MESSAGE value="18-06-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="18-06-25" />
+    <MESSAGE value="19-08-25" />
+    <MESSAGE value="1004. Max Consecutive Ones III" />
+    <MESSAGE value="904. Fruit Into Baskets" />
+    <MESSAGE value="76. Minimum Window Substring" />
+    <MESSAGE value="1358. Number of Substrings Containing All Three Characters" />
+    <MESSAGE value="1277. Count Square Submatrices with All Ones" />
+    <MESSAGE value="424. Longest Repeating Character Replacement" />
+    <MESSAGE value="560. Subarray Sum Equals K" />
+    <MESSAGE value="930. Binary Subarrays With Sum" />
+    <MESSAGE value="1248. Count Number of Nice Subarrays" />
+    <MESSAGE value="992. Subarrays with K Different Integers" />
+    <MESSAGE value="2762. Continuous Subarrays" />
+    <MESSAGE value="1493. Longest Subarray of 1's After Deleting One Element" />
+    <MESSAGE value="//498. Diagonal Traverse" />
+    <MESSAGE value="//567. Permutation in String" />
+    <MESSAGE value="2779. Maximum Beauty of an Array After Applying Operation" />
+    <MESSAGE value="2461. Maximum Sum of Distinct Subarrays With Length K" />
+    <MESSAGE value="962. Maximum Width Ramp" />
+    <MESSAGE value="2516. Take K of Each Character From Left and Right" />
+    <option name="LAST_COMMIT_MESSAGE" value="2516. Take K of Each Character From Left and Right" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
