@@ -38,3 +38,22 @@ public class MaxAverageRatio {
         return maxAvg / n;
     }
 }
+/*
+Pseudocode
+
+1. For each class:
+       calculate current pass ratio = passed / total
+       calculate ratio if we add one more student = (passed+1) / (total+1)
+       calculate gain = newRatio - currentRatio
+       put {gain, classIndex} into a maxHeap (priority queue)
+
+2. While we still have extra students:
+       pick the class with the largest gain (from maxHeap)
+       assign 1 student to that class (increase passed & total by 1)
+       recalculate its new gain (if we add another student in future)
+       push updated {gain, classIndex} back into maxHeap
+
+3. After all students are assigned:
+       calculate average ratio = sum(pass/total for each class) / numberOfClasses
+       return this average
+ */
