@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2516. Take K of Each Character From Left and Right">
+    <list default="true" id="fc524eaa-eb1c-41c3-82df-06899d3bb113" name="Changes" comment="2962. Count Subarrays Where Max Element Appears at Least K Times">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/TakeCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/CountSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/CountSubarrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,20 @@
       <recent name="Graph.Bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxWidthRamp">
+  <component name="RunManager" selected="Application.CountSubarrays">
+    <configuration name="CountSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.CountSubarrays" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -83,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthUglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSet.NthUglyNumber" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TreeSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberOfSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPointer.NumberOfSubstrings" />
       <module name="LeetCode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSubarrays" />
         <item itemvalue="Application.MaxWidthRamp" />
         <item itemvalue="Application.MaximumSubarraySum" />
         <item itemvalue="Application.NumberOfSubstrings" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NthUglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -127,48 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705292827047</updated>
-    </task>
-    <task id="LOCAL-00143" summary="3105. Longest Strictly Increasing or Strictly Decreasing Subarray">
-      <created>1738551360000</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1738551360000</updated>
-    </task>
-    <task id="LOCAL-00144" summary="1752. Check if Array Is Sorted and Rotated">
-      <created>1738551379777</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1738551379777</updated>
-    </task>
-    <task id="LOCAL-00145" summary="1790. Check if One String Swap Can Make Strings Equal">
-      <created>1738737834072</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1738737834072</updated>
-    </task>
-    <task id="LOCAL-00146" summary="1726. Tuple with Same Product">
-      <created>1738828467464</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1738828467464</updated>
-    </task>
-    <task id="LOCAL-00147" summary="323. Number of Connected Components in an Undirected Graph">
-      <created>1738858823782</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1738858823782</updated>
-    </task>
-    <task id="LOCAL-00148" summary="261. Graph Valid Tree">
-      <created>1738858921666</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1738858921666</updated>
     </task>
     <task id="LOCAL-00149" summary="547. Number of Provinces">
       <created>1738859019254</created>
@@ -471,7 +429,49 @@
       <option name="project" value="LOCAL" />
       <updated>1756278938562</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="2516. Take K of Each Character From Left and Right">
+      <created>1756363360333</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1756363360333</updated>
+    </task>
+    <task id="LOCAL-00193" summary="2485. Find the Pivot Integer">
+      <created>1756482881510</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1756482881510</updated>
+    </task>
+    <task id="LOCAL-00194" summary="1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence">
+      <created>1756627346660</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1756627346660</updated>
+    </task>
+    <task id="LOCAL-00195" summary="1792. Maximum Average Pass Ratio">
+      <created>1756698279100</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1756698279100</updated>
+    </task>
+    <task id="LOCAL-00196" summary="713. Subarray Product Less Than K">
+      <created>1756897965476</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1756897965491</updated>
+    </task>
+    <task id="LOCAL-00197" summary="2962. Count Subarrays Where Max Element Appears at Least K Times">
+      <created>1756900355446</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1756900355446</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,11 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1980. Find Unique Binary String" />
-    <MESSAGE value="1028. Recover a Tree From Preorder Traversal" />
-    <MESSAGE value="1261. Find Elements in a Contaminated Binary Tree" />
-    <MESSAGE value="5. Longest Palindromic Substring" />
-    <MESSAGE value="3. Longest Substring Without Repeating Characters" />
     <MESSAGE value="18-06-25" />
     <MESSAGE value="19-08-25" />
     <MESSAGE value="1004. Max Consecutive Ones III" />
@@ -511,7 +506,12 @@
     <MESSAGE value="2461. Maximum Sum of Distinct Subarrays With Length K" />
     <MESSAGE value="962. Maximum Width Ramp" />
     <MESSAGE value="2516. Take K of Each Character From Left and Right" />
-    <option name="LAST_COMMIT_MESSAGE" value="2516. Take K of Each Character From Left and Right" />
+    <MESSAGE value="2485. Find the Pivot Integer" />
+    <MESSAGE value="1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence" />
+    <MESSAGE value="1792. Maximum Average Pass Ratio" />
+    <MESSAGE value="713. Subarray Product Less Than K" />
+    <MESSAGE value="2962. Count Subarrays Where Max Element Appears at Least K Times" />
+    <option name="LAST_COMMIT_MESSAGE" value="2962. Count Subarrays Where Max Element Appears at Least K Times" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1830,6 +1830,21 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>26</line>
           <option name="timeStamp" value="824" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/CountSubarrays.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="832" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/CountSubarrays.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/CountSubarrays.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="834" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

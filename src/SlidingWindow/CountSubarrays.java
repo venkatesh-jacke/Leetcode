@@ -17,8 +17,8 @@ public class CountSubarrays {
         for (int r = 0, l = 0; r < n; r++) {
             if (nums[r] == maxElement) maxFreq++; //monitoring only the maxElement in array
             //if condition satisfies than calculate the ans
-            while (l < r && maxFreq > k) {
-                ans += (n - l); //// all subarrays starting at index l (till the end of array) are invalid
+            while (l <= r && maxFreq >= k) { //l<=r to chk single element also
+                ans += (n - r); // all subarrays starting at index l and ending from r..n-1 are invalid (contain > k maxElement)
                 if (nums[l] == maxElement) maxFreq--;
                 l++;
             }
