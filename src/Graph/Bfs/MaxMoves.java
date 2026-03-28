@@ -36,7 +36,7 @@ public class MaxMoves {
                 max = Math.max(max, count);
                 // Explore all three directions from the current cell.
                 for (int dir : dirs) {
-                    int newRow = row + dir, newCol = col + 1;
+                    int newRow = row + dir, newCol = col + 1; //row there is 3 option but column only one option that is next column
                     if (newRow >= 0 &&
                             newRow < m &&
                             newCol >= 0 &&
