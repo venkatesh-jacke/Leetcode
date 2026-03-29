@@ -7,7 +7,7 @@ import java.util.HashMap;
 class Main {
 
     public static void main(String[] args) {
-        System.out.println(largestGoodInteger("222"));
+        System.out.println(largestGoodInteger("223"));
     }
 
    static public String largestGoodInteger(String num) {
