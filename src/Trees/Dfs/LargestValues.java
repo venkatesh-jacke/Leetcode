@@ -1,7 +1,7 @@
 package Trees.Dfs;
 
 import Trees.TreeNode;
-import javafx.util.Pair;
+import Util.Pair;
 
 import java.util.*;
 

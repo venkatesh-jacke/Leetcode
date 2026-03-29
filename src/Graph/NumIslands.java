@@ -1,7 +1,7 @@
 package Graph;
 
 import com.sun.org.apache.xml.internal.security.algorithms.implementations.IntegrityHmac;
-import javafx.util.Pair;
+import Util.Pair;
 
 import java.util.LinkedList;
 import java.util.Queue;
