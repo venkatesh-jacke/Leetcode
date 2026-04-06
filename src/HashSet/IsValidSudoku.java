@@ -3,21 +3,12 @@ package HashSet;
 import java.util.HashSet;
 import java.util.Set;
 
+//36. Valid Sudoku
+
 public class IsValidSudoku {
-    static int c = 0;
 
     public static void main(String[] args) {
-        char[][] board = {
-                {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
-                {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
-                {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
-                {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
-                {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
-                {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
-                {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
-                {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
-                {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
-        };
+        char[][] board = {{'5', '3', '.', '.', '7', '.', '.', '.', '.'}, {'6', '.', '.', '1', '9', '5', '.', '.', '.'}, {'.', '9', '8', '.', '.', '.', '.', '6', '.'}, {'8', '.', '.', '.', '6', '.', '.', '.', '3'}, {'4', '.', '.', '8', '.', '3', '.', '.', '1'}, {'7', '.', '.', '.', '2', '.', '.', '.', '6'}, {'.', '6', '.', '.', '.', '.', '2', '8', '.'}, {'.', '.', '.', '4', '1', '9', '.', '.', '5'}, {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
         System.out.println(isValidSudoku(board));
         System.out.println(isValidSudoku2(board));
     }
@@ -73,20 +64,43 @@ public class IsValidSudoku {
         return true;
     }
 
-
+    //Time	O(1) (or O(N²) generalized)
+    //Space	O(1) (or O(N²) generalized)
     static public boolean isValidSudoku2(char[][] board) {
-        Set seen = new HashSet();
+        Set<String> seen = new HashSet<>();
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                char cur= board[i][j];
-                if(cur!='.')
-                    if(!seen.add(cur+" in roe "+i)|| !seen.add(cur+" in col "+j) ||!seen.add(cur+" in box "+i/3+"-"+j/3)){
-                        return  false;
-                }
+                char cur = board[i][j];
+                if (cur != '.')
+                    if (!seen.add(cur + " in row " + i) || !seen.add(cur + " in col " + j) || !seen.add(cur + " in box " + i / 3 + "-" + j / 3)) {
+                        return false;
+                    }
             }
             System.out.println(seen);
         }
-        return  true;
+        return true;
+    }
+
+    //Time	O(1)
+    //Space	O(1)
+    static public boolean isValidSudoku3(char[][] board) {
+        int[] row = new int[9];
+        int[] col = new int[9];
+        int[] box = new int[9];
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] == '.') continue;
+                int num = board[i][j] - '1';
+                //index = row * number_of_columns + column
+                int boxIndex = (i / 3) * 3 + (j / 3);
+                int mask = 1 << num;
+                if ((row[i] & mask) != 0 || (col[j] & mask) != 0 || ((box[boxIndex] & mask) != 0)) return false;
+                row[i] |= mask;
+                col[j] |= mask;
+                box[boxIndex] |= mask;
+            }
+        }
+        return true;
     }
 
 }
