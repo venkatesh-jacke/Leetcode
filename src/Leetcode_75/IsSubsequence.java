@@ -14,7 +14,6 @@ public class IsSubsequence {
         while (i < s.length() && j < t.length()) {
             if (s.charAt(i) == t.charAt(j)) {
                 i++;
-
             }
             j++;
         }

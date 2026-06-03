@@ -4,7 +4,8 @@ package Leetcode_75;
 //1071. Greatest Common Divisor of Strings
 public class GcdOfStrings {
     public static void main(String[] args) {
-
+        String str1 = "ABABAB", str2 = "ABAB";
+        System.out.println(gcdOfStrings(str1,str2));
     }
 
    static public String gcdOfStrings(String str1, String str2) {

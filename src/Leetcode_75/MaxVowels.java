@@ -1,5 +1,6 @@
 package Leetcode_75;
 
+//1456. Maximum Number of Vowels in a Substring of Given Length
 public class MaxVowels {
     public static void main(String[] args) {
         String s = "\"ibpbhixfiouhdljnjfflpapptrxgcomvnb\"";
@@ -7,25 +8,21 @@ public class MaxVowels {
     }
 
     static public int maxVowels(String s, int k) {
-        int current = 0, ans = 0;
-
+        char[] ca = s.toCharArray();
+        int cur = 0;
         for (int i = 0; i < k; i++) {
-            if (isVowel(s.charAt(i)))
-                current += 1;
+            if (isVowel(ca[i])) cur++;
         }
-        int l = 0;
-        for (int r = k; r < s.length(); r++) {
-            if (isVowel(s.charAt(r)))
-                current += 1;
-            if (isVowel(s.charAt(l)))
-                current -= 1;
-            l += 1;
-            ans = Math.max(ans, current);
+        int ans = cur;
+        for (int i = k; i < ca.length; i++) {
+            if (isVowel(ca[i])) cur++;
+            if (isVowel(ca[i - k])) cur--;
+            ans = Math.max(cur, ans);
         }
         return ans;
     }
 
     static public boolean isVowel(char c) {
-        return (c > 96 && c < 123) && ("aeiou".indexOf(c) != -1);
+        return "aeiou".indexOf(c)!=-1;
     }
 }
