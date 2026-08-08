@@ -1,6 +1,7 @@
 package Strings;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -25,5 +26,18 @@ public class MinimumPushes {
             idx += 1;
         }
         return res;
+    }
+    public int minimumPushes2(String word) {
+        int total = 0;
+        int[] freq = new int[26];
+        for (char c : word.toCharArray()) {
+            freq[c - 'a']++;
+        }
+        Arrays.sort(freq);
+        for (int i = 25; i >= 0; i--) {
+            int pushes = (25 - i) / 8 + 1; //25-i says how in which position
+            total += freq[i] * pushes;
+        }
+        return total;
     }
 }
