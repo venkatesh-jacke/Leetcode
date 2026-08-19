@@ -6,42 +6,27 @@ import java.util.HashMap;
 
 class Main {
 
-    int[] suffix;
-    int n;
-
-    public int stoneGameII(int[] piles) {
-
-        n = piles.length;
-
-        // suffix[i] = total stones from i to end
-        suffix = new int[n];
-        suffix[n - 1] = piles[n - 1];
-
-        for (int i = n - 2; i >= 0; i--)
-            suffix[i] = suffix[i + 1] + piles[i];
-
-        return solve(0, 1);
+    public static void main(String[] args) {
+        int n = 3;
+        int[][] reservedSeats = {{4, 3}, {1, 4}, {4, 6}, {1, 7}};
+        maxNumberOfFamilies(3, new int[][]{
+                {1, 2},
+                {1, 3},
+                {1, 8},
+                {2, 6},
+                {3, 1},
+                {3, 10}
+        });
+        //System.out.println(maxNumberOfFamilies(n, reservedSeats));
     }
 
-    // Maximum stones current player can collect
-    private int solve(int index, int M) {
-
-        // No piles left.
-        if (index >= n)
-            return 0;
-
-        // Can take every remaining pile.
-        if (2 * M >= n - index)
-            return suffix[index];
-
-        int best = 0;
-
-        // Try every possible X.
-        for (int X = 1; X <= 2 * M; X++) {
-
-            best = Math.max(best, suffix[index] - solve(index + X, Math.max(M, X)));
+    static public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
+        int[][] seats = new int[n][10];
+        for (int[] rows : reservedSeats) {
+            //question is 1 index we do it in 0 index
+            seats[rows[0]-1][rows[1]-1] = 1;
         }
-
-        return best;
+        System.out.println(Arrays.deepToString(seats));
+        return -1;
     }
 }

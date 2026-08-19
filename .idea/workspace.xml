@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae38f56e-4870-4172-a684-7c1e96d668cf" name="Changes" comment="1833. Maximum Ice Cream Bars">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrix/ShiftGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/UniqueXorTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/PredictTheWinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynmaicProgramming/StoneGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/FindSafeWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/MinScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dfs/MinScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dijkstra/FindSafeWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/AsteroidCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/DeleteMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/GoodNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/HasPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LeafSimilar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LongestZigZag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/OddEvenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/PairSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/PathSum_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/PredictPartyVictory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/RightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/decodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memoization/PredictTheWinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memoization/StoneGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PredictTheWinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/StoneGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/MaxActiveSectionsAfterTrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/SmallestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Dfs/LongestZigZag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Dfs/RemainingMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/HasPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/PathSum_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MaxNumberOfFamilies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/MissingInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/LargestInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/MaxLevelSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/SearchBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumLengthSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Matrix/EqualPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Matrix/EqualPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode_75/UniqueOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode_75/UniqueOccurrences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/MinimumPushes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/MinimumPushes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,49 +49,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DecodeCiphertext.executor": "Run",
-    "Application.FindSafeWalk.executor": "Run",
-    "Application.Graph.Dijkstra.FindSafeWalk.executor": "Run",
-    "Application.IncreasingTriplet.executor": "Run",
-    "Application.JudgeCircle.executor": "Run",
-    "Application.LeafSimilar.executor": "Run",
-    "Application.LongestCommonPrefix.executor": "Run",
-    "Application.LongestZigZag.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaxActiveSectionsAfterTrade.executor": "Run",
-    "Application.MaxJumps.executor": "Run",
-    "Application.MaxResult.executor": "Run",
-    "Application.MaximumAmount.executor": "Run",
-    "Application.MinMirrorPairDistance.executor": "Run",
-    "Application.MinScore.executor": "Run",
-    "Application.MinimumDistance.executor": "Debug",
-    "Application.NumIslands.executor": "Run",
-    "Application.PathSum_II.executor": "Run",
-    "Application.RobotSim.executor": "Run",
-    "Application.Search.executor": "Run",
-    "Application.ShiftGrid.executor": "Run",
-    "Application.SmallestPalindrome.executor": "Run",
-    "Application.UniqueOccurrences.executor": "Debug",
-    "Kotlin.MainKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DecodeCiphertext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSafeWalk.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Graph.Dijkstra.FindSafeWalk.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncreasingTriplet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JudgeCircle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeafSimilar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestZigZag.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxActiveSectionsAfterTrade.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxJumps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxLevelSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxResult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumAmount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMirrorPairDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinScore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumDistance.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MissingInteger.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumIslands.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathSum_II.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RobotSim.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShiftGrid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueOccurrences.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Leetcode_75" />
@@ -127,26 +104,13 @@
       <recent name="Greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestZigZag">
-    <configuration name="LeafSimilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_75.LeafSimilar" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.DeleteNode" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode_75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.Dfs.LongestZigZag" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.Dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PathSum_II" />
+    <configuration name="MaxLevelSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.MaxLevelSum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Leetcode_75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SmallestPalindrome" />
+    <configuration name="MissingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashSet.MissingInteger" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="HashSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode_75.SearchBST" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode_75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,19 +166,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestZigZag" />
-        <item itemvalue="Application.PathSum_II" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LeafSimilar" />
-        <item itemvalue="Application.SmallestPalindrome" />
+        <item itemvalue="Application.MissingInteger" />
+        <item itemvalue="Application.DeleteNode" />
+        <item itemvalue="Application.SearchBST" />
+        <item itemvalue="Application.MaxLevelSum" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
       </set>
     </attachedChunks>
   </component>
@@ -427,6 +404,16 @@
           <url>file://$PROJECT_DIR$/src/Leetcode_75/decodeString.java</url>
           <line>42</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashSet/MissingInteger.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashSet/MissingInteger.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
