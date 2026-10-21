@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae38f56e-4870-4172-a684-7c1e96d668cf" name="Changes" comment="1833. Maximum Ice Cream Bars">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MaxNumberOfFamilies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/MissingInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/LargestInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/DeleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/MaxLevelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode_75/SearchBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumLengthSubstring.java" afterDir="false" />
+    <list default="true" id="ae38f56e-4870-4172-a684-7c1e96d668cf" name="Changes" comment="Aug 19 2026">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MinimumDeletions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/LexicographicallySmallestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/ShortestBeautifulSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Bfs/MinMoves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/NodesBetweenCriticalPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/NodesBetweenCriticalPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,53 +47,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DecodeCiphertext.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindSafeWalk.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Graph.Dijkstra.FindSafeWalk.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncreasingTriplet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JudgeCircle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeafSimilar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestZigZag.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxActiveSectionsAfterTrade.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxJumps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxLevelSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxResult.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumAmount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinMirrorPairDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinScore.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumDistance.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MissingInteger.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumIslands.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PathSum_II.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RobotSim.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchBST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShiftGrid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueOccurrences.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DecodeCiphertext.executor": "Run",
+    "Application.DeleteNode.executor": "Run",
+    "Application.FindSafeWalk.executor": "Run",
+    "Application.Graph.Dijkstra.FindSafeWalk.executor": "Run",
+    "Application.IncreasingTriplet.executor": "Run",
+    "Application.JudgeCircle.executor": "Run",
+    "Application.LeafSimilar.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestZigZag.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxActiveSectionsAfterTrade.executor": "Run",
+    "Application.MaxJumps.executor": "Run",
+    "Application.MaxLevelSum.executor": "Run",
+    "Application.MaxResult.executor": "Run",
+    "Application.MaximumAmount.executor": "Run",
+    "Application.MinMirrorPairDistance.executor": "Run",
+    "Application.MinMoves.executor": "Run",
+    "Application.MinScore.executor": "Run",
+    "Application.MinimumDistance.executor": "Debug",
+    "Application.MissingInteger.executor": "Debug",
+    "Application.NumIslands.executor": "Run",
+    "Application.PathSum_II.executor": "Run",
+    "Application.RobotSim.executor": "Run",
+    "Application.Search.executor": "Run",
+    "Application.SearchBST.executor": "Run",
+    "Application.ShiftGrid.executor": "Run",
+    "Application.SmallestPalindrome.executor": "Run",
+    "Application.UniqueOccurrences.executor": "Debug",
+    "Kotlin.MainKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Leetcode_75" />
@@ -104,7 +103,7 @@
       <recent name="Greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MinMoves">
     <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode_75.DeleteNode" />
       <module name="Leetcode" />
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLevelSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_75.MaxLevelSum" />
+    <configuration name="MinMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Bfs.MinMoves" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode_75.*" />
+          <option name="PATTERN" value="Trees.Bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMoves" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MissingInteger" />
         <item itemvalue="Application.DeleteNode" />
         <item itemvalue="Application.SearchBST" />
-        <item itemvalue="Application.MaxLevelSum" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +344,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="03-06-2026" />
     <MESSAGE value="1833. Maximum Ice Cream Bars" />
-    <option name="LAST_COMMIT_MESSAGE" value="1833. Maximum Ice Cream Bars" />
+    <MESSAGE value="Aug 19 2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aug 19 2026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,6 +414,16 @@
           <url>file://$PROJECT_DIR$/src/HashSet/MissingInteger.java</url>
           <line>27</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

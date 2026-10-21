@@ -4,29 +4,35 @@ import java.util.*;
 import java.util.HashMap;
 
 
+//3069. Distribute Elements Into Two Arrays I
+
 class Main {
 
     public static void main(String[] args) {
-        int n = 3;
-        int[][] reservedSeats = {{4, 3}, {1, 4}, {4, 6}, {1, 7}};
-        maxNumberOfFamilies(3, new int[][]{
-                {1, 2},
-                {1, 3},
-                {1, 8},
-                {2, 6},
-                {3, 1},
-                {3, 10}
-        });
-        //System.out.println(maxNumberOfFamilies(n, reservedSeats));
+        System.out.println(Arrays.toString(resultArray(new int[]{5, 4, 3, 8})));
     }
 
-    static public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
-        int[][] seats = new int[n][10];
-        for (int[] rows : reservedSeats) {
-            //question is 1 index we do it in 0 index
-            seats[rows[0]-1][rows[1]-1] = 1;
+    static public int[] resultArray(int[] nums) {
+        int n = nums.length;
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+        list1.add(nums[0]);
+        list2.add(nums[1]);
+        for (int i = 2; i < n; i++) {
+            if (list1.get(list1.size() - 1) > list2.get(list2.size() - 1)) {
+                list1.add(nums[i]);
+            } else {
+                list2.add(nums[i]);
+            }
         }
-        System.out.println(Arrays.deepToString(seats));
-        return -1;
+        int[] res = new int[nums.length];
+        int idx=0;
+        for(int i:list1){
+            res[idx++]=i;
+        }
+        for(int i:list2){
+            res[idx++]=i;
+        }
+        return res;
     }
 }
